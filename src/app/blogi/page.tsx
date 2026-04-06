@@ -11,7 +11,7 @@ import type { BlogPost } from '@/types';
 export const metadata: Metadata = {
   title: 'Vakuutusblogi — Vinkit, oppaat ja vertailut',
   description:
-    'Vakuutusvertailun blogi: parhaat vinkit vakuutusten valintaan, vertailut ja asiantuntija-artikkelit. Säästä vakuutuksissa.',
+    'Valitse Vakuutuksen blogi: parhaat vinkit vakuutusten valintaan, vertailut ja asiantuntija-artikkelit. Säästä vakuutuksissa.',
   alternates: {
     canonical: `${SITE_URL}/blogi`,
   },

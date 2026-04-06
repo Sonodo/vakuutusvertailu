@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Vakuutuslaskurit — Laske vakuutuksen hinta | Vakuutusvertailu',
+  title: 'Vakuutuslaskurit — Laske vakuutuksen hinta | Valitse Vakuutus',
   description:
     'Ilmaiset vakuutuslaskurit: autovakuutuslaskuri, kotivakuutuslaskuri, säästölaskuri, bonuslaskuri ja lemmikkivakuutuslaskuri. Laske vakuutuksen hinta ja vertaa vakuutusyhtiöitä.',
   alternates: {

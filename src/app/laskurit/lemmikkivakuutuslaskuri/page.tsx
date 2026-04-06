@@ -6,7 +6,7 @@ import { SITE_URL } from '@/lib/constants';
 import PetCalculator from './PetCalculator';
 
 export const metadata: Metadata = {
-  title: 'Lemmikkivakuutuslaskuri — Laske lemmikkivakuutuksen hinta | Vakuutusvertailu',
+  title: 'Lemmikkivakuutuslaskuri — Laske lemmikkivakuutuksen hinta | Valitse Vakuutus',
   description:
     'Laske lemmikkivakuutuksen hinta koiralle, kissalle tai kanille. Vertaa lemmikkivakuutuksia kaikilta Suomen vakuutusyhtiöiltä ja löydä halvin vaihtoehto.',
   alternates: {

@@ -6,7 +6,7 @@ import { SITE_URL } from '@/lib/constants';
 import SavingsCalculator from './SavingsCalculator';
 
 export const metadata: Metadata = {
-  title: 'Säästölaskuri — Kuinka paljon voit säästää? | Vakuutusvertailu',
+  title: 'Säästölaskuri — Kuinka paljon voit säästää? | Valitse Vakuutus',
   description:
     'Selvitä kuinka paljon voit säästää vaihtamalla vakuutusyhtiötä. Syötä nykyiset vakuutusmaksusi ja näe potentiaaliset säästöt kaikilta Suomen vakuutusyhtiöiltä.',
   alternates: {

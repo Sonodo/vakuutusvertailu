@@ -6,7 +6,7 @@ import { SITE_URL } from '@/lib/constants';
 import HomeCalculator from './HomeCalculator';
 
 export const metadata: Metadata = {
-  title: 'Kotivakuutuslaskuri — Laske kotivakuutuksen hinta | Vakuutusvertailu',
+  title: 'Kotivakuutuslaskuri — Laske kotivakuutuksen hinta | Valitse Vakuutus',
   description:
     'Laske kotivakuutuksen hinta ilmaisella laskurilla. Vertaa kotivakuutuksia kerrostalolle, rivitalolle ja omakotitalolle kaikilta Suomen vakuutusyhtiöiltä.',
   alternates: {

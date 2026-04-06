@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { cities } from '@/data/regions';
 
-export const alt = 'Vakuutukset — Vakuutusvertailu';
+export const alt = 'Vakuutukset — Valitse Vakuutus';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -102,7 +102,7 @@ export default async function Image({
               fontWeight: 500,
             }}
           >
-            Vakuutusvertailu
+            Valitse Vakuutus
           </span>
           <span
             style={{
@@ -288,7 +288,7 @@ export default async function Image({
               fontSize: '18px',
             }}
           >
-            vakuutusvertailu.fi/vakuutukset
+            valitsevakuutus.fi/vakuutukset
           </span>
           <span
             style={{
@@ -296,7 +296,7 @@ export default async function Image({
               fontSize: '18px',
             }}
           >
-            Vertaa. Säästä. Vakuuta.
+            Vertaa ja valitse paras vakuutus
           </span>
         </div>
       </div>

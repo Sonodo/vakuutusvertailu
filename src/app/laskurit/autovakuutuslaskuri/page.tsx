@@ -6,7 +6,7 @@ import { SITE_URL } from '@/lib/constants';
 import AutoCalculator from './AutoCalculator';
 
 export const metadata: Metadata = {
-  title: 'Autovakuutuslaskuri — Laske autovakuutuksen hinta | Vakuutusvertailu',
+  title: 'Autovakuutuslaskuri — Laske autovakuutuksen hinta | Valitse Vakuutus',
   description:
     'Laske autovakuutuksen hinta ilmaisella laskurilla. Syötä auton ja kuljettajan tiedot ja vertaa liikenne- ja kaskovakuutusten hintoja kaikilta Suomen vakuutusyhtiöiltä.',
   alternates: {

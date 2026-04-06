@@ -41,7 +41,7 @@ export default function TermsPage() {
               vertailupalvelu, joka tarjoaa kuluttajille tietoa ja työkaluja
               vakuutusten vertailuun. Palvelu on saatavilla osoitteessa{' '}
               <Link href="/" className="text-teal underline">
-                vakuutusvertailu.fi
+                valitsevakuutus.fi
               </Link>
               .
             </p>
@@ -210,10 +210,10 @@ export default function TermsPage() {
               Näihin ehtoihin liittyvissä kysymyksissä voit ottaa meihin yhteyttä
               sähköpostitse:{' '}
               <a
-                href="mailto:info@vakuutusvertailu.fi"
+                href="mailto:info@valitse.fi"
                 className="text-teal underline"
               >
-                info@vakuutusvertailu.fi
+                info@valitse.fi
               </a>
             </p>
           </div>

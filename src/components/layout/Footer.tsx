@@ -4,9 +4,9 @@ import { FOOTER_LINKS, SITE_NAME } from '@/lib/constants';
 
 const CROSS_PRODUCT_LINKS = [
   { label: 'Asuntomaatti', description: 'Asuntojen hintavertailu', href: 'https://asuntomaatti.fi' },
-  { label: 'Lainavertailu', description: 'Lainojen vertailu', href: 'https://lainavertailu.fi' },
-  { label: 'Energiavertailu', description: 'Sähkön hintavertailu', href: 'https://energiavertailu.fi' },
-  { label: 'Puhelinvertailu', description: 'Puhelinliittymien vertailu', href: 'https://puhelinvertailu.vercel.app' },
+  { label: 'Valitse Laina', description: 'Lainojen vertailu', href: 'https://valitselaina.fi' },
+  { label: 'Valitse Sähkö', description: 'Sähkön hintavertailu', href: 'https://valitsesahko.fi' },
+  { label: 'Valitse Puhelin', description: 'Puhelinliittymien vertailu', href: 'https://valitsepuhelin.fi' },
   { label: 'Alennuskartta', description: 'Tarjoukset ja alennukset', href: 'https://alennuskartta.fi' },
   { label: 'Fixmera', description: 'Kotipalvelut', href: 'https://fixmera.com' },
   { label: 'Lakimaatti', description: 'Oikeudelliset asiakirjat', href: 'https://lakimaatti.fi' },
@@ -117,7 +117,7 @@ export default function Footer() {
                 Puolueeton ja ilmainen palvelu.
               </p>
               <p className="text-sm text-white/70">
-                info@vakuutusvertailu.fi
+                info@valitse.fi
               </p>
             </div>
           </div>

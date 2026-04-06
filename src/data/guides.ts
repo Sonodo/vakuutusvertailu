@@ -15,7 +15,7 @@ const autovakuutusOpas: Guide = {
   description:
     'Kattava opas autovakuutuksen valintaan Suomessa. Liikennevakuutus, osakasko, täyskasko — mitä tarvitset, mitä ne maksavat ja miten vertailet oikein.',
   category: 'auto',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-15',
   updatedAt: '2026-03-15',
   readTime: 18,
@@ -229,7 +229,7 @@ const kotivakuutusOpas: Guide = {
   description:
     'Täydellinen opas kotivakuutukseen Suomessa. Mitä kotivakuutus korvaa, miten valita oikea turvataso, miten arvioida irtaimiston arvo ja miten säästää.',
   category: 'home',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-14',
   updatedAt: '2026-03-14',
   readTime: 15,
@@ -395,7 +395,7 @@ const vakuutuksenIrtisanominen: Guide = {
   description:
     'Miten irtisanot vakuutuksen ja vaihdat yhtiötä? Irtisanomisajat, bonusten siirto, oikeutesi ja käytännön ohjeet. Kaikki yhdessä paikassa.',
   category: 'general',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-13',
   updatedAt: '2026-03-13',
   readTime: 12,
@@ -529,7 +529,7 @@ const mitaVakuutusKorvaa: Guide = {
   description:
     'Selvitä, mitä vakuutukset todella korvaavat ja mitä ne eivät korvaa. Yleisimmät korvausrajaukset, omavastuut ja korvausten hakeminen selitettynä.',
   category: 'general',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-12',
   updatedAt: '2026-03-12',
   readTime: 14,
@@ -659,7 +659,7 @@ const vakuutussanasto: Guide = {
   description:
     'Kattava vakuutussanasto suomeksi. Kaikki vakuutusalan termit selitettynä selkeästi. Liikennevakuutuksesta kaskovakuutukseen, omavastuusta bonusjärjestelmään.',
   category: 'general',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-11',
   updatedAt: '2026-03-11',
   readTime: 20,
@@ -827,7 +827,7 @@ const lemmikkivakuutusOpas: Guide = {
   description:
     'Kaikki mitä sinun tulee tietää lemmikkivakuutuksesta: koiran ja kissan vakuutusten vertailu, hinnat, korvausrajat, karenssiajat ja vinkit parhaan vakuutuksen valintaan Suomessa vuonna 2026.',
   category: 'pet',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-18',
   updatedAt: '2026-03-18',
   readTime: 22,

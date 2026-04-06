@@ -6,9 +6,9 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Tietoa meistä — Kuka tekee Vakuutusvertailun?',
+  title: 'Tietoa meistä — Kuka tekee Valitse Vakuutuksen?',
   description:
-    'Vakuutusvertailu on riippumaton vertailupalvelu. Lue miten toimimme, miten ansaitsemme ja miksi voit luottaa meihin.',
+    'Valitse Vakuutus on riippumaton vakuutusvertailupalvelu. Lue miten toimimme, miten ansaitsemme ja miksi voit luottaa meihin.',
   alternates: {
     canonical: `${SITE_URL}/tietoa`,
   },

@@ -8,7 +8,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Näin vertailemme — Metodologia ja läpinäkyvyys',
   description:
-    'Lue miten Vakuutusvertailu vertailee vakuutuksia, miten järjestys lasketaan ja miksi affiliate-status ei vaikuta tuloksiin.',
+    'Lue miten Valitse Vakuutus vertailee vakuutuksia, miten järjestys lasketaan ja miksi affiliate-status ei vaikuta tuloksiin.',
   alternates: {
     canonical: `${SITE_URL}/metodologia`,
   },

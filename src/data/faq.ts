@@ -16,7 +16,7 @@ export const generalFAQ: FAQItem[] = [
       'Vähimmäistarpeet ovat: liikennevakuutus (lakisääteinen, jos omistat auton), kotivakuutus (korvaa irtaimiston ja sisältää vastuuvakuutuksen) ja matkavakuutus (jos matkustat ulkomaille). Näiden lisäksi henkivakuutus on suositeltava perheellisille ja asuntolainan ottajille, ja lemmikkivakuutus lemmikkieläimen omistajille.',
   },
   {
-    question: 'Miten vakuutusten vertailu toimii Vakuutusvertailu.fi:ssä?',
+    question: 'Miten vakuutusten vertailu toimii Valitse Vakuutuksessa?',
     answer:
       'Vertailemme kaikkien kymmenen suomalaisen vakuutusyhtiön tuotteita avoimesti ja puolueettomasti. Hinta-arviot perustuvat julkisiin hintatietoihin ja vakuutuslaskureihin. Vertailussa huomioimme hinnan, kattavuuden, asiakastyytyväisyyden ja erityisehdot. Osa linkeistä on mainoslinkkejä, joista saamme pienen korvauksen — tämä ei vaikuta vertailujärjestykseen.',
   },

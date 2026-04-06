@@ -124,7 +124,7 @@ export default async function ComparisonPage({
     },
     {
       question: `Voiko ${p1Name} ja ${p2Name} vakuutuksia vertailla verkossa?`,
-      answer: `Kyllä! Vakuutusvertailu.fi tarjoaa ilmaisen ja puolueettoman vertailupalvelun, jossa voit vertailla ${p1Name} ja ${p2Name} vakuutuksia ominaisuuksien, hintojen ja asiakastyytyväisyyden perusteella.`,
+      answer: `Kyllä! Valitse Vakuutus tarjoaa ilmaisen ja puolueettoman vertailupalvelun, jossa voit vertailla ${p1Name} ja ${p2Name} vakuutuksia ominaisuuksien, hintojen ja asiakastyytyväisyyden perusteella.`,
     },
     {
       question: `Miten ${p1Name} ja ${p2Name} eroavat korvauspalvelussa?`,

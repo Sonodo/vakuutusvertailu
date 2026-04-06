@@ -6,7 +6,7 @@ import { SITE_URL } from '@/lib/constants';
 import BonusCalculator from './BonusCalculator';
 
 export const metadata: Metadata = {
-  title: 'Bonuslaskuri — Autovakuutuksen bonusluokan vaikutus | Vakuutusvertailu',
+  title: 'Bonuslaskuri — Autovakuutuksen bonusluokan vaikutus | Valitse Vakuutus',
   description:
     'Laske autovakuutuksen bonusluokan vaikutus hintaan. Näe miten bonus kehittyy vuosi vuodelta ja kuinka vahinko vaikuttaa bonuksiisi.',
   alternates: {

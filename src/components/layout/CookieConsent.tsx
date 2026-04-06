@@ -9,7 +9,7 @@ type ConsentState = {
   marketing: boolean;
 };
 
-const STORAGE_KEY = 'vakuutusvertailu-cookie-consent';
+const STORAGE_KEY = 'valitsevakuutus-cookie-consent';
 
 function updateGtagConsent(consent: ConsentState) {
   if (typeof window !== 'undefined' && typeof window.gtag === 'function') {

@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { INSURANCE_TYPES } from '@/lib/constants';
 
-export const alt = 'Vakuutusvertailu — Vakuutusvertailu';
+export const alt = 'Vakuutusvertailu — Valitse Vakuutus';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -19,7 +19,7 @@ export default async function Image({
 
   const title = typeInfo
     ? `${typeInfo.name} vertailu 2026`
-    : 'Vakuutusvertailu';
+    : 'Valitse Vakuutus';
   const subtitle = typeInfo?.description ?? 'Vertaa vakuutuksia ja säästä';
   const keyFact = typeInfo?.keyFact ?? '';
   const avgPrice = typeInfo?.averagePrice ?? '';
@@ -87,7 +87,7 @@ export default async function Image({
               fontWeight: 500,
             }}
           >
-            Vakuutusvertailu
+            Valitse Vakuutus
           </span>
         </div>
 
@@ -230,7 +230,7 @@ export default async function Image({
               fontSize: '18px',
             }}
           >
-            vakuutusvertailu.fi
+            valitsevakuutus.fi
           </span>
           <span
             style={{
@@ -238,7 +238,7 @@ export default async function Image({
               fontSize: '18px',
             }}
           >
-            Vertaa. Säästä. Vakuuta.
+            Vertaa ja valitse paras vakuutus
           </span>
         </div>
       </div>

@@ -15,7 +15,7 @@ const autovakuutusVertailu2026: BlogPost = {
   description:
     'Vertaa autovakuutusten hintoja ja kattavuuksia 2026. Käytännön vinkit halvimman liikennevakuutuksen ja kaskon löytämiseen kaikista suomalaisista vakuutusyhtiöistä.',
   category: 'vertailu',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-15',
   updatedAt: '2026-03-15',
   readTime: 12,
@@ -181,7 +181,7 @@ const liikennevakuutusVaiKasko: BlogPost = {
   description:
     'Selkeä opas liikennevakuutuksen ja kaskovakuutuksen eroihin. Milloin pelkkä liikennevakuutus riittää ja milloin tarvitset kaskon?',
   category: 'opas',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-14',
   updatedAt: '2026-03-14',
   readTime: 9,
@@ -291,7 +291,7 @@ const kotivakuutuksenValinta: BlogPost = {
   description:
     'Opas kotivakuutuksen valintaan 2026. Mitä kotivakuutus korvaa, paljonko se maksaa ja mitä eroja yhtiöiden välillä on? 7 kriittistä asiaa.',
   category: 'opas',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-13',
   updatedAt: '2026-03-13',
   readTime: 10,
@@ -419,7 +419,7 @@ const lemmikkivakuutus2026: BlogPost = {
   description:
     'Kattava opas lemmikkivakuutukseen 2026. Koiran ja kissan vakuutushinnat, kattavuudet ja yhtiöiden vertailu. Eläinlääkärikulut voivat yllättää — vakuutus suojaa.',
   category: 'vertailu',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-12',
   updatedAt: '2026-03-12',
   readTime: 11,
@@ -540,7 +540,7 @@ const vakuutuksenKilpailutus: BlogPost = {
   description:
     'Käytännön opas vakuutusten kilpailuttamiseen. Milloin, miten ja miksi kilpailuttaa? Vaiheittainen ohje, jolla säästät satoja euroja vuodessa.',
   category: 'vinkit',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-11',
   updatedAt: '2026-03-11',
   readTime: 8,
@@ -652,7 +652,7 @@ const nuorenKuljettajanAutovakuutus: BlogPost = {
   description:
     'Miksi alle 25-vuotiaan autovakuutus on niin kallis? Käytännön vinkit, joilla nuori kuljettaja säästää autovakuutuksessa jopa satoja euroja vuodessa.',
   category: 'vinkit',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-10',
   updatedAt: '2026-03-10',
   readTime: 8,
@@ -756,7 +756,7 @@ const omakotitaloVsKerrostalo: BlogPost = {
   description:
     'Miten omakotitalon ja kerrostaloasunnon kotivakuutukset eroavat? Hintavertailu, kattavuuserot ja vinkit oikean vakuutuksen valintaan.',
   category: 'opas',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-09',
   updatedAt: '2026-03-09',
   readTime: 9,
@@ -884,7 +884,7 @@ const matkavakuutusEurooppaan: BlogPost = {
   description:
     'Kattava opas Euroopan-matkan matkavakuutukseen 2026. Vertaa yhtiöiden hintoja ja kattavuuksia. Eurooppalainen sairaanhoitokortti ei riitä — tarvitset matkavakuutuksen.',
   category: 'vertailu',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-08',
   updatedAt: '2026-03-08',
   readTime: 9,
@@ -981,7 +981,7 @@ const bonusjarjestelma: BlogPost = {
   description:
     'Miten autovakuutuksen bonusjärjestelmä toimii Suomessa? Bonusluokat, bonusten kertyminen, bonusten menetys ja bonustaulukko selitettynä selkeästi.',
   category: 'opas',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-07',
   updatedAt: '2026-03-07',
   readTime: 7,
@@ -1088,7 +1088,7 @@ const keskittamisetuVaiKilpailutus: BlogPost = {
   description:
     'Kannattaako pitää kaikki vakuutukset samassa yhtiössä keskittämisedun takia, vai kilpailuttaa jokainen erikseen? Laskimme puolestasi.',
   category: 'vinkit',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-06',
   updatedAt: '2026-03-06',
   readTime: 10,
@@ -1191,7 +1191,7 @@ const keskittamisetuVaiKilpailutus: BlogPost = {
   <li><strong>Laske oma tilanteesi:</strong> Vertaile kokonaisuutta, ei yksittäisiä vakuutuksia</li>
   <li><strong>Huomioi keskittämisedun todellinen arvo:</strong> 10 % bonuksesta ei ole sama kuin 10 % halvemmista hinnoista</li>
   <li><strong>Vertaile vähintään 3 vuoden välein:</strong> Tilanne muuttuu — hinnat, bonukset ja tarjoukset vaihtuvat</li>
-  <li><strong>Käytä vertailutyökalua:</strong> Vakuutusvertailu.fi auttaa löytämään juuri sinulle edullisimman ratkaisun</li>
+  <li><strong>Käytä vertailutyökalua:</strong> Valitse Vakuutus auttaa löytämään juuri sinulle edullisimman ratkaisun</li>
 </ol>
 
 <p>Muista: <strong>vakuutusyhtiöt kilpailevat sinun rahoistasi</strong>. Hyödynnä kilpailua omaksi eduksesi.</p>
@@ -1208,7 +1208,7 @@ const sahkoautonVakuutus: BlogPost = {
   description:
     'Sähköauton vakuuttaminen poikkeaa perinteisen polttomoottoriauton vakuuttamisesta. Kerromme, mitä sähköauton vakuutus maksaa vuonna 2026, miten akku vaikuttaa vakuutukseen ja missä yhtiössä sähköauton vakuuttaminen on edullisinta.',
   category: 'opas',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-20',
   updatedAt: '2026-03-20',
   readTime: 14,
@@ -1434,7 +1434,7 @@ const vakuutuskorvauksenHakeminen: BlogPost = {
   description:
     'Miten vakuutuskorvausta haetaan? Käytännön opas vahingon dokumentoinnista korvauspäätökseen. Aikataulut, lomakkeet, muutoksenhaku ja vinkit onnistuneeseen hakemukseen.',
   category: 'opas',
-  author: 'Vakuutusvertailu.fi toimitus',
+  author: 'Valitse Vakuutus toimitus',
   publishedAt: '2026-03-22',
   updatedAt: '2026-03-22',
   readTime: 13,
