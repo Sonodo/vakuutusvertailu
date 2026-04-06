@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { SITE_NAME, SITE_URL, SITE_DESCRIPTION } from '@/lib/constants';
 import CookieConsent from '@/components/layout/CookieConsent';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -81,6 +82,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-white text-gray-900 antialiased">
+        <GoogleAnalytics />
         {children}
         <CookieConsent />
       </body>

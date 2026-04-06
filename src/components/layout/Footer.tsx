@@ -6,9 +6,11 @@ const CROSS_PRODUCT_LINKS = [
   { label: 'Asuntomaatti', description: 'Asuntojen hintavertailu', href: 'https://asuntomaatti.fi' },
   { label: 'Lainavertailu', description: 'Lainojen vertailu', href: 'https://lainavertailu.fi' },
   { label: 'Energiavertailu', description: 'Sähkön hintavertailu', href: 'https://energiavertailu.fi' },
+  { label: 'Puhelinvertailu', description: 'Puhelinliittymien vertailu', href: 'https://puhelinvertailu.vercel.app' },
   { label: 'Alennuskartta', description: 'Tarjoukset ja alennukset', href: 'https://alennuskartta.fi' },
   { label: 'Fixmera', description: 'Kotipalvelut', href: 'https://fixmera.com' },
   { label: 'Lakimaatti', description: 'Oikeudelliset asiakirjat', href: 'https://lakimaatti.fi' },
+  { label: 'Valitse', description: 'Kaikki vertailupalvelut', href: 'https://valitse.fi' },
 ];
 
 export default function Footer() {
@@ -78,7 +80,7 @@ export default function Footer() {
           {/* Muut palvelumme */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/60">
-              Muut palvelumme
+              Osa Valitse-verkostoa
             </h3>
             <ul className="space-y-2">
               {CROSS_PRODUCT_LINKS.map((link) => (
