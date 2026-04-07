@@ -45,7 +45,7 @@ const TIER_DESCRIPTIONS: Record<InsuranceTier, string> = {
   basic: 'Perustason kotivakuutus — kattaa tulipalot, vesivahingot, murrot ja vastuuvakuutuksen.',
   standard: 'Kattaa perustason lisäksi rikkoutumiset, polkupyörävarkaudet ja matkatavaraturvan.',
   premium: 'Laaja turva — sisältää myös luonnonilmiöturvan, kodinkoneiden rikkoutumisen ja korotetut katot.',
-  comprehensive: 'Markkinoiden kattavin turva kaikilla mahdollisilla lisillä.',
+  comprehensive: 'Erittäin kattava turva kaikilla mahdollisilla lisillä.',
 };
 
 export default function HomeCalculator() {

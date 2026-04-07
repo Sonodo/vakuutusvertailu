@@ -18,13 +18,6 @@ export default function ProviderSchema({ provider }: ProviderSchemaProps) {
       addressLocality: provider.headquarters,
       addressCountry: 'FI',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: provider.satisfaction.toFixed(1),
-      bestRating: '10',
-      worstRating: '0',
-      ratingCount: provider.reviewCount,
-    },
     sameAs: [provider.website],
   };
 

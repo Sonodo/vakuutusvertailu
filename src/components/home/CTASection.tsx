@@ -14,8 +14,8 @@ export default function CTASection() {
           Valmis vertailemaan?
         </h2>
         <p className="mt-4 text-lg text-white/80">
-          Suomalaiset maksavat vakuutuksistaan keskimäärin 200–500 euroa liikaa
-          vuodessa. Selvitä oma säästöpotentiaalisi.
+          Vertailemalla vakuutuksia voit löytää edullisemman vaihtoehdon.
+          Selvitä oma säästöpotentiaalisi.
         </p>
 
         <Link

@@ -449,7 +449,7 @@ export default async function ComparisonPage({
               Vertaa vakuutuksia ja säästä
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-white/90">
-              Löydä paras vakuutus juuri sinulle. Puolueeton vertailu 10 vakuutusyhtiön välillä.
+              Löydä sopiva vakuutus juuri sinulle. Puolueeton vertailu 10 vakuutusyhtiön välillä.
             </p>
             <Link
               href="/vertailu"

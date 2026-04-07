@@ -915,7 +915,12 @@ function ResultsList({
       </div>
 
       {/* Disclaimer */}
-      <div className="mt-6 rounded-lg bg-amber/10 px-4 py-3">
+      <div className="mt-6 rounded-lg bg-amber-50 p-3 text-sm text-amber-600">
+        <p className="font-medium">
+          Laskelma on suuntaa-antava arvio. Tarkka vakuutusmaksu selviää pyytämällä tarjous vakuutusyhtiöltä.
+        </p>
+      </div>
+      <div className="mt-3 rounded-lg bg-amber/10 px-4 py-3">
         <p className="text-xs text-gray-600">
           Hinnat ovat arvioita julkisiin tietoihin perustuen. Lopullinen hinta
           riippuu henkilökohtaisista tekijöistä. Siirry vakuutusyhtiön sivulle

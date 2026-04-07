@@ -6,7 +6,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE_NAME} — Vertaa vakuutuksia ja säästä | Suomen kattavin vakuutusvertailu`,
+    default: `${SITE_NAME} — Vertaa vakuutuksia ja säästä | Suomen kattava vakuutusvertailu`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,

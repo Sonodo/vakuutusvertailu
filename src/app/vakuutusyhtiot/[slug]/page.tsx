@@ -87,13 +87,6 @@ export default async function ProviderDetailPage({
       '@type': 'QuantitativeValue',
       value: provider.employeeCount,
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: provider.satisfaction,
-      bestRating: 10,
-      worstRating: 0,
-      reviewCount: provider.reviewCount,
-    },
   };
 
   const faqSchema = provider.faq.length > 0

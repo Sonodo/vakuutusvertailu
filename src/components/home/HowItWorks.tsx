@@ -10,7 +10,7 @@ const steps = [
   {
     number: 2,
     title: 'Vertaa tarjouksia',
-    description: 'Näe kaikkien vakuutusyhtiöiden hinnat ja ehdot rinnakkain.',
+    description: 'Saat suuntaa-antavan arvion vakuutusmaksuista eri yhtiöiltä.',
     Icon: BarChart3,
   },
   {

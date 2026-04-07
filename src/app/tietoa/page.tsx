@@ -50,7 +50,7 @@ export default function AboutPage() {
             <p>
               Uskomme, että kuluttajien tulisi voida vertailla kaikkien yhtiöiden tuotteita
               yhdestä paikasta — mukaan lukien ne yhtiöt, jotka eivät maksa meille mitään.
-              Tämä on ainoa tapa tehdä aidosti puolueetonta vertailua.
+              Uskomme, että tämä on oikea tapa tehdä aidosti puolueetonta vertailua.
             </p>
 
             <h2>Miten ansaitsemme rahaa?</h2>

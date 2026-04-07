@@ -37,7 +37,6 @@ export interface InsuranceProvider {
   logo: string;
   color: string;
   satisfaction: number; // 0-10 scale
-  reviewCount: number;
   claimProcessRating: number; // 0-10
   onlineServiceRating: number; // 0-10
   priceCompetitiveness: number; // 0-10

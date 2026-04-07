@@ -15,7 +15,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 export const metadata: Metadata = {
   title: `Vertaa vakuutusyhtiöitä — Kaikki vakuutusyhtiövertailut | ${SITE_NAME}`,
   description:
-    'Vertaa Suomen vakuutusyhtiöitä keskenään. If vs Pohjola, LähiTapiola vs Fennia ja 18 muuta vertailua. Löydä paras vakuutusyhtiö puolueettomalla vertailulla.',
+    'Vertaa Suomen vakuutusyhtiöitä keskenään. If vs Pohjola, LähiTapiola vs Fennia ja 18 muuta vertailua. Löydä sopiva vakuutusyhtiö puolueettomalla vertailulla.',
   alternates: {
     canonical: `${SITE_URL}/vertaa`,
   },

@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-white/80 sm:text-xl">
-            Suomen kattavin vakuutusvertailu — kaikki vakuutusyhtiöt, kaikki
+            Suomen kattava vakuutusvertailu — kaikki vakuutusyhtiöt, kaikki
             vakuutuslajit, yhdessä paikassa.
           </p>
 

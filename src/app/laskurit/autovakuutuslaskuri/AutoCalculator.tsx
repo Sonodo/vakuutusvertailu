@@ -41,7 +41,7 @@ const TIER_DESCRIPTIONS: Record<InsuranceTier, string> = {
   basic: 'Pakollinen liikennevakuutus — korvaa toiselle osapuolelle aiheutuneet vahingot.',
   standard: 'Liikennevakuutus + yleisimmät lisäturvat: palo, varkaus, lasivahingot, hirvikolari.',
   premium: 'Laaja turva — sisältää myös törmäysvahingot, ilkivallan ja lunastusturvan.',
-  comprehensive: 'Markkinoiden kattavin turva — sisältää kaiken plus keskeytysvakuutuksen ja uushinta-arvon.',
+  comprehensive: 'Erittäin kattava turva — sisältää kaiken plus keskeytysvakuutuksen ja uushinta-arvon.',
 };
 
 export default function AutoCalculator() {

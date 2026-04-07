@@ -261,7 +261,7 @@ export default async function Image({
               fontSize: '18px',
             }}
           >
-            Vertaa ja valitse paras vakuutus
+            Vertaa ja valitse sopiva vakuutus
           </span>
         </div>
       </div>

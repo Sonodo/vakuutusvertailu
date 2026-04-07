@@ -735,7 +735,7 @@ Odotusaika vakuutuksen voimaantulon jälkeen, jonka aikana korvauksia ei makseta
 Vapaaehtoinen autovakuutus, joka korvaa oman auton vahinkoja. Kolme tasoa: osakasko (perus), täyskasko (kattava) ja laaja täyskasko (kaikki turvat).</p>
 
 <p><strong>Keskittämisetu</strong><br/>
-Vakuutusyhtiöiden tarjoama alennus, kun asiakkaalla on useita vakuutuksia samassa yhtiössä. Tyypillisesti 5–17 % vakuutusmaksuista. OP:n bonusjärjestelmä on markkinoiden kattavin.</p>
+Vakuutusyhtiöiden tarjoama alennus, kun asiakkaalla on useita vakuutuksia samassa yhtiössä. Tyypillisesti 5–17 % vakuutusmaksuista. OP:n bonusjärjestelmä on markkinoiden kattavimpia.</p>
 
 <p><strong>Korvausraja / korvuskatto</strong><br/>
 Enimmäissumma, jonka vakuutusyhtiö korvaa yhdestä vahingosta tai vuodessa. Esimerkiksi lemmikkivakuutuksen vuotuinen korvausraja voi olla 3 000–6 000 €.</p>

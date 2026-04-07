@@ -1,9 +1,9 @@
 export async function GET() {
-  const content = `# Vakuutusvertailu
-> Suomen kattavin vakuutusvertailu — vertaa vakuutuksia ja säästä
+  const content = `# Valitse Vakuutus
+> Suomen kattava vakuutusvertailu — vertaa vakuutuksia ja säästä
 
 ## What is this site?
-Vakuutusvertailu (valitsevakuutus.fi) is a Finnish insurance comparison platform. It provides free, independent comparison of insurance products from Finland's 10 largest insurance providers. The site is an information service — not an insurance intermediary or advisor.
+Valitse Vakuutus (valitsevakuutus.fi) is a Finnish insurance comparison platform. It provides free, independent comparison of insurance products from Finland's 10 largest insurance providers. The site is an information service — not an insurance intermediary or advisor.
 
 ## Insurance types compared (7)
 - Autovakuutus (Car insurance) — mandatory liikennevakuutus + optional kasko: /autovakuutus

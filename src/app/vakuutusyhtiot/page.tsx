@@ -9,7 +9,7 @@ import { formatSatisfaction, formatPercentage } from '@/lib/utils';
 import type { InsuranceProvider } from '@/types';
 
 export const metadata: Metadata = {
-  title: 'Vakuutusyhtiöt Suomessa — Vertaa ja löydä paras',
+  title: 'Vakuutusyhtiöt Suomessa — Vertaa ja löydä sopiva',
   description:
     'Kattava lista Suomen vakuutusyhtiöistä. Vertaa vakuutusyhtiöiden hintoja, asiakastyytyväisyyttä ja tuotevalikoimaa. 10 yhtiötä vertailussa.',
   alternates: {

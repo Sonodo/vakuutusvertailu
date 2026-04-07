@@ -8,7 +8,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Yhteystiedot — Ota yhteyttä',
   description:
-    'Ota yhteyttä Vakuutusvertailuun. Autamme mielellämme kaikissa vakuutusvertailuun liittyvissä kysymyksissä.',
+    'Ota yhteyttä Valitse Vakuutukseen. Autamme mielellämme kaikissa vakuutusvertailuun liittyvissä kysymyksissä.',
   alternates: {
     canonical: `${SITE_URL}/yhteystiedot`,
   },

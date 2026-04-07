@@ -37,6 +37,10 @@ export default function TopProviders() {
           </div>
         ))}
       </div>
+
+      <p className="mt-6 text-center text-sm text-gray-500">
+        Hinnat ovat suuntaa-antavia arvioita. Tarkka vakuutusmaksu riippuu henkilökohtaisista tekijöistä. Pyydä aina tarjous suoraan vakuutusyhtiöltä.
+      </p>
     </section>
   );
 }

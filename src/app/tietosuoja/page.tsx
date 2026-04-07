@@ -7,7 +7,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Tietosuojaseloste — Evästeet ja yksityisyys',
   description:
-    'Vakuutusvertailun tietosuojaseloste. Lue miten käsittelemme tietojasi, mitä evästeitä käytämme ja mitkä ovat oikeutesi.',
+    'Valitse Vakuutuksen tietosuojaseloste. Lue miten käsittelemme tietojasi, mitä evästeitä käytämme ja mitkä ovat oikeutesi.',
   alternates: {
     canonical: `${SITE_URL}/tietosuoja`,
   },
@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
             <h2>2. Mitä tietoja keräämme</h2>
             <p>
               {SITE_NAME} on suunniteltu toimimaan ilman henkilötietojen keräämistä.
-              Vakuutusvertailun käyttö ei edellytä rekisteröitymistä eikä henkilötietojen
+              Valitse Vakuutuksen käyttö ei edellytä rekisteröitymistä eikä henkilötietojen
               antamista.
             </p>
             <h3>2.1 Automaattisesti kerättävät tiedot</h3>
@@ -69,7 +69,7 @@ export default function PrivacyPolicyPage() {
               henkilöllisyystietoihin.
             </p>
 
-            <h3>2.2 Vakuutusvertailun käyttötiedot</h3>
+            <h3>2.2 Valitse Vakuutuksen käyttötiedot</h3>
             <p>
               Kun käytät vakuutuslaskuriamme, tallennamme anonyymejä käyttötietoja:
             </p>

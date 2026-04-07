@@ -91,9 +91,9 @@ export const generalFAQ: FAQItem[] = [
       'Kyllä — useimmat suomalaiset vakuutusyhtiöt tarjoavat vakuutusten oston verkossa. POP Vakuutus on kokonaan digitaalinen (ei konttoreita). OP, If, LähiTapiola ja Fennia tarjoavat kattavat verkko-ostomahdollisuudet. Verkossa saat yleensä myös hinta-arvion vakuutuslaskurilla ennen ostopäätöstä.',
   },
   {
-    question: 'Mikä on paras vakuutusyhtiö Suomessa?',
+    question: 'Mikä vakuutusyhtiö sopii minulle?',
     answer:
-      'Paras vakuutusyhtiö riippuu yksilöllisistä tarpeistasi. POP Vakuutus on usein edullisin ja asiakastyytyväisin (9,1/10). If tarjoaa parhaat digitaaliset palvelut ja erinomaisen korvauspalvelun. OP/Pohjola on kattavin keskittäjille OP-bonuksen ansiosta. Turva on parhaimmistoa asiakastyytyväisyydessä. Suosittelemme vertailemaan omien tarpeidesi pohjalta.',
+      'Sopiva vakuutusyhtiö riippuu yksilöllisistä tarpeistasi. POP Vakuutus on usein edullisin ja asiakastyytyväisyydeltään korkealla (9,1/10). If tarjoaa erinomaiset digitaaliset palvelut ja korvauspalvelun. OP/Pohjola on kattava valinta keskittäjille OP-bonuksen ansiosta. Turva on parhaimmistoa asiakastyytyväisyydessä. Suosittelemme vertailemaan omien tarpeidesi pohjalta.',
   },
 ];
 

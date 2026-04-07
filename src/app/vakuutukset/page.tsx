@@ -13,7 +13,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 export const metadata: Metadata = {
   title: `Vakuutukset alueittain — Vertaa vakuutuksia kaupungeittain | ${SITE_NAME}`,
   description:
-    'Vertaa vakuutuksia kaupungeittain: Helsinki, Tampere, Oulu, Turku ja 11 muuta kaupunkia. Löydä paras vakuutus omalla alueellasi.',
+    'Vertaa vakuutuksia kaupungeittain: Helsinki, Tampere, Oulu, Turku ja 11 muuta kaupunkia. Löydä sopiva vakuutus omalla alueellasi.',
   alternates: {
     canonical: `${SITE_URL}/vakuutukset`,
   },
@@ -276,7 +276,7 @@ export default function RegionalIndexPage() {
               Vertaa vakuutuksia omalla alueellasi
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg text-white/90">
-              Anna postinumerosi ja löydä paras vakuutus juuri sinulle. Puolueeton ja ilmainen vertailu.
+              Anna postinumerosi ja löydä sopiva vakuutus juuri sinulle. Puolueeton ja ilmainen vertailu.
             </p>
             <Link
               href="/vertailu"

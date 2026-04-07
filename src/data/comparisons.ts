@@ -53,7 +53,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'If saa jatkuvasti hyviä arvosanoja asiakastyytyväisyyskyselyissä. Erityisesti helppokäyttöisyys ja nopea palvelu saavat kiitosta.',
         provider2Text:
-          'LähiTapiola on EPSI Rating -tutkimuksissa usein Suomen paras vakuutusyhtiö asiakastyytyväisyydessä. Henkilökohtainen palvelu on vahvuus.',
+          'LähiTapiola menestyy EPSI Rating -tutkimuksissa hyvin asiakastyytyväisyydessä. Henkilökohtainen palvelu on vahvuus.',
       },
       {
         category: 'Korvauspalvelu',
@@ -166,7 +166,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Ifin monivakuutusalennus on kohtuullinen mutta ei erityisen houkutteleva. If ei tarjoa pankkipalveluja, joten kokonaisasiakkuusetu on rajallisempi.',
         provider2Text:
-          'OP-bonus on markkinoiden paras keskittämisetu. Bonus kertyy kaikista OP-palveluista ja voi olla jopa 17 % vakuutusmaksuista. Tämä tekee Pohjolasta erittäin kilpailukykyisen OP:n kokonaisasiakkaille.',
+          'OP-bonus on markkinoiden kattavimpia keskittämisetuja. Bonus kertyy kaikista OP-palveluista ja voi olla jopa 17 % vakuutusmaksuista. Tämä tekee Pohjolasta erittäin kilpailukykyisen OP:n kokonaisasiakkaille.',
       },
       {
         category: 'Tuotevalikoima',
@@ -397,7 +397,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Fennian monivakuutusalennus on kohtuullinen. Yrittäjäasiakkaille tarjolla erityisiä keskittämisetuja.',
         provider2Text:
-          'OP-bonus on markkinoiden paras keskittämisetu. Kaikki OP-palvelut kerryttävät bonusta, jota voi käyttää vakuutusmaksuihin.',
+          'OP-bonus on markkinoiden kattavimpia keskittämisetuja. Kaikki OP-palvelut kerryttävät bonusta, jota voi käyttää vakuutusmaksuihin.',
       },
       {
         category: 'Tuotevalikoima',
@@ -764,7 +764,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'POP Vakuutuksen keskittämisedut ovat rajalliset. Edulliset perushinnat kompensoivat.',
         provider2Text:
-          'OP-bonus on markkinoiden paras keskittämisetu. Jopa 17 % vakuutusmaksuista bonuksena.',
+          'OP-bonus on markkinoiden kattavimpia keskittämisetuja. Jopa 17 % vakuutusmaksuista bonuksena.',
       },
       {
         category: 'Tuotevalikoima',
@@ -882,7 +882,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Pohjantähden asiakkaat arvostavat henkilökohtaista ja paikallista palvelua.',
         provider2Text:
-          'LähiTapiola on Suomen paras vakuutusyhtiö asiakastyytyväisyydessä.',
+          'LähiTapiola sijoittuu Suomen parhaisiin vakuutusyhtiöihin asiakastyytyväisyydessä.',
       },
       {
         category: 'Korvauspalvelu',
@@ -968,7 +968,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Aktian verkkopalvelut ovat modernit. Pankki ja vakuutukset samassa sovelluksessa.',
         provider2Text:
-          'OP-mobiili on Suomen kattavin finanssisovellus. Pankki, vakuutukset ja sijoitukset yhdessä paikassa.',
+          'OP-mobiili on Suomen kattavimpia finanssisovelluksia. Pankki, vakuutukset ja sijoitukset yhdessä paikassa.',
       },
       {
         category: 'Keskittämisedut',
@@ -1036,7 +1036,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Aktian verkkopalvelut ovat modernit ja toimivat.',
         provider2Text:
-          'If on Pohjoismaiden digitaalisin vakuuttaja. Markkinoiden paras mobiilisovellus ja verkkopalvelu.',
+          'If on Pohjoismaiden digitaalisimpia vakuuttajia. Erinomainen mobiilisovellus ja verkkopalvelu.',
       },
       {
         category: 'Keskittämisedut',
@@ -1190,7 +1190,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Turvan ammattiliittoedut ovat vahvoja jäsenille.',
         provider2Text:
-          'OP-bonus on markkinoiden paras keskittämisetu.',
+          'OP-bonus on markkinoiden kattavimpia keskittämisetuja.',
       },
       {
         category: 'Tuotevalikoima',
@@ -1335,7 +1335,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Text:
           'Sp Vakuutuksen keskittämisedut ovat kohtuulliset Säästöpankkiryhmän asiakkaille.',
         provider2Text:
-          'OP-bonus on markkinoiden paras keskittämisetu.',
+          'OP-bonus on markkinoiden kattavimpia keskittämisetuja.',
       },
       {
         category: 'Tuotevalikoima',

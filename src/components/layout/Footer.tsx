@@ -139,7 +139,7 @@ export default function Footer() {
                 <span className="text-sm font-semibold">{SITE_NAME}</span>
               </div>
               <p className="text-sm text-white/70">
-                Suomen kattavin vakuutusvertailu.
+                Suomen kattava vakuutusvertailu.
                 <br />
                 Puolueeton ja ilmainen palvelu.
               </p>
