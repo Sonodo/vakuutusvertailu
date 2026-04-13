@@ -5,7 +5,7 @@ import type { InsuranceTypeInfo, NavItem } from '@/types';
 export const SITE_NAME = 'Vakuutusvertailu';
 export const SITE_URL = 'https://valitsevakuutus.fi';
 export const SITE_DESCRIPTION =
-  'Suomen kattava vakuutusvertailu. Vertaa autovakuutuksia, kotivakuutuksia, matkavakuutuksia, lemmikkivakuutuksia ja henkivakuutuksia — kaikki vakuutusyhtiöt yhdessä paikassa.';
+  'Puolueeton vakuutusvertailu. Vertaa autovakuutuksia, kotivakuutuksia, matkavakuutuksia, lemmikkivakuutuksia ja henkivakuutuksia — Suomen merkittävimmät vakuutusyhtiöt yhdessä paikassa.';
 export const SITE_TAGLINE = 'Vertaa. Säästä. Vakuuta.';
 
 // --- Colors (Brand Palette) ---

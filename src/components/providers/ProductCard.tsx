@@ -95,17 +95,14 @@ export default function ProductCard({ product, provider }: ProductCardProps) {
       {/* CTA */}
       <div className="mt-5">
         {provider?.isAffiliate && provider.affiliateUrl ? (
-          <div>
-            <a
-              href={provider.affiliateUrl}
-              target="_blank"
-              rel="sponsored nofollow noopener"
-              className="inline-flex min-h-[44px] w-full items-center justify-center rounded-lg bg-teal px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-dark"
-            >
-              Katso tarjous
-            </a>
-            <span className="mt-1.5 block text-center text-xs text-gray-400">Mainos</span>
-          </div>
+          <a
+            href={provider.affiliateUrl}
+            target="_blank"
+            rel="sponsored nofollow noopener"
+            className="inline-flex min-h-[44px] w-full items-center justify-center rounded-lg bg-teal px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-dark"
+          >
+            Näytä tarjous
+          </a>
         ) : (
           <Link
             href={`/vakuutusyhtiot/${provider?.slug || product.providerId}`}

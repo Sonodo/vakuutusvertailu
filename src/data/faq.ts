@@ -18,12 +18,12 @@ export const generalFAQ: FAQItem[] = [
   {
     question: 'Miten vakuutusten vertailu toimii Valitse Vakuutuksessa?',
     answer:
-      'Vertailemme kaikkien kymmenen suomalaisen vakuutusyhtiön tuotteita avoimesti ja kattavasti. Hinta-arviot perustuvat julkisiin hintatietoihin ja vakuutuslaskureihin. Vertailussa huomioimme hinnan, kattavuuden, asiakastyytyväisyyden ja erityisehdot. Osa linkeistä on mainoslinkkejä, joista saamme pienen korvauksen — tämä ei vaikuta vertailujärjestykseen.',
+      'Vertailemme Suomen merkittävimpien vakuutusyhtiöiden tuotteita yhdessä paikassa. Hinta-arviot perustuvat julkisiin hintatietoihin ja vakuutusyhtiöiden verkkolaskureihin. Järjestys perustuu hintaan, kattavuuteen, omavastuuseen ja asiakastyytyväisyyteen — sama menetelmä koskee jokaista vakuutusta.',
   },
   {
-    question: 'Maksaako vakuutusten vertailu jotain?',
+    question: 'Onko palvelu ilmainen?',
     answer:
-      'Ei. Vakuutusten vertailu on aina 100 % ilmaista. Saamme tulomme vakuutusyhtiöiden maksamista affiliate-palkkioista, jotka eivät vaikuta sinulle näytettävään hintaan tai vertailujärjestykseen.',
+      'Kyllä. Valitse Vakuutus on täysin ilmainen käyttää — ei maksuja, ei rekisteröitymistä, ei sitoumusta.',
   },
   {
     question: 'Voiko vakuutusyhtiötä vaihtaa milloin tahansa?',

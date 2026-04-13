@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import type { InsuranceProvider } from '@/types';
 import { formatSatisfaction, formatPercentage } from '@/lib/utils';
-import Badge from '@/components/ui/Badge';
 import StarRating from '@/components/ui/StarRating';
 
 interface ProviderCardProps {
@@ -27,7 +26,6 @@ export default function ProviderCard({ provider }: ProviderCardProps) {
             </p>
           </div>
         </div>
-        {provider.isAffiliate && <Badge variant="affiliate">Mainos</Badge>}
       </div>
 
       {/* Ratings */}

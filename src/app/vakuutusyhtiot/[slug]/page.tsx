@@ -340,9 +340,7 @@ export default async function ProviderDetailPage({
                   Kiinnostaako {provider.name}?
                 </h2>
                 <p className="mb-6 text-sm text-gray-600">
-                  {provider.isAffiliate
-                    ? 'Siirry vakuutusyhtiön sivuille ja pyydä tarjous.'
-                    : 'Käy vakuutusyhtiön sivuilla saadaksesi tarjouksen.'}
+                  Siirry tarjoajan sivuille ja pyydä tarjous.
                 </p>
                 {provider.isAffiliate && provider.affiliateUrl ? (
                   <a
@@ -351,10 +349,7 @@ export default async function ProviderDetailPage({
                     target="_blank"
                     className="inline-block rounded-lg bg-teal px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-teal-dark"
                   >
-                    Siirry sivuille
-                    <span className="ml-2 rounded bg-white/20 px-1.5 py-0.5 text-xs">
-                      Mainos
-                    </span>
+                    Siirry tarjoajalle
                   </a>
                 ) : (
                   <a
@@ -363,13 +358,8 @@ export default async function ProviderDetailPage({
                     rel="noopener noreferrer"
                     className="inline-block rounded-lg bg-navy px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-navy-light"
                   >
-                    Käy sivuilla
+                    Siirry tarjoajalle
                   </a>
-                )}
-                {provider.isAffiliate && provider.affiliateDisclosure && (
-                  <p className="mt-3 text-xs text-gray-400">
-                    {provider.affiliateDisclosure}
-                  </p>
                 )}
               </section>
             </div>

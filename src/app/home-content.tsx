@@ -39,12 +39,16 @@ const ease = [0.25, 0.1, 0.25, 1] as const;
 
 const faqItems = [
   {
-    q: 'Onko Valitse Vakuutuksen palvelu ilmainen?',
-    a: 'Kyllä, palvelumme on täysin ilmainen kuluttajille. Saatamme saada korvauksen vakuutusyhtiöiltä, mutta se ei vaikuta vertailun tuloksiin tai järjestykseen.',
+    q: 'Onko palvelu ilmainen?',
+    a: 'Kyllä. Valitse Vakuutus on täysin ilmainen käyttää — ei maksuja, ei rekisteröitymistä, ei sitoumusta.',
+  },
+  {
+    q: 'Mihin vertailun järjestys perustuu?',
+    a: 'Vertailun järjestys perustuu objektiivisiin kriteereihin: hintaan, kattavuuteen, omavastuuseen ja asiakastyytyväisyyteen. Sama menetelmä koskee jokaista vakuutusta. Lue lisää sivulta /metodologia.',
   },
   {
     q: 'Kuinka usein vakuutustiedot päivitetään?',
-    a: 'Tarkistamme vakuutustiedot neljännesvuosittain ja päivitämme aina, kun yhtiöt muuttavat hintojaan tai ehtojaan. Hinta-arviot perustuvat julkisiin hintatietoihin ja vakuutuslaskureihin.',
+    a: 'Tarkistamme ja päivitämme vakuutustiedot säännöllisesti, jotta näet aina ajantasaisen kuvan markkinasta. Hinta-arviot perustuvat julkisiin hintatietoihin ja vakuutuslaskureihin.',
   },
   {
     q: 'Voiko vakuutusyhtiötä vaihtaa milloin tahansa?',
@@ -69,7 +73,7 @@ const howItWorks = [
     step: 1,
     icon: Search,
     title: 'Vertaile',
-    desc: 'Selaa kaikkien vakuutusyhtiöiden tuotteita yhdessä paikassa. Suodata vakuutustyypin, hinnan tai kattavuuden mukaan.',
+    desc: 'Selaa merkittävimpien vakuutusyhtiöiden tuotteita yhdessä paikassa. Suodata vakuutustyypin, hinnan tai kattavuuden mukaan.',
   },
   {
     step: 2,
@@ -88,13 +92,13 @@ const howItWorks = [
 const valueProps = [
   {
     icon: Shield,
-    title: 'Kattava vertailu',
-    description: 'Emme suosi mitään vakuutusyhtiötä. Vertailumme perustuu todellisiin hintoihin, kattavuuteen ja asiakastyytyväisyyteen.',
+    title: 'Puolueeton vertailu',
+    description: 'Järjestys perustuu hintaan, kattavuuteen ja asiakastyytyväisyyteen — sama menetelmä jokaiselle vakuutukselle.',
   },
   {
     icon: Clock,
     title: 'Aina ajan tasalla',
-    description: 'Tarkistamme vakuutustiedot säännöllisesti. Näet aina ajankohtaiset hinnat ja ehdot yhdestä paikasta.',
+    description: 'Tarkistamme vakuutustiedot säännöllisesti. Näet aina ajantasaiset hinnat ja ehdot yhdestä paikasta.',
   },
   {
     icon: TrendingDown,
@@ -103,8 +107,8 @@ const valueProps = [
   },
   {
     icon: Scale,
-    title: 'Kaikki yhtiöt',
-    description: 'OP, LähiTapiola, If, Fennia, POP Vakuutus ja muut — 10 vakuutusyhtiötä yhdessä paikassa ilman erillisiä hakuja.',
+    title: 'Laaja valikoima',
+    description: 'OP, LähiTapiola, If, Fennia, POP Vakuutus ja muut — Suomen merkittävimmät vakuutusyhtiöt yhdessä paikassa.',
   },
 ];
 
@@ -213,8 +217,8 @@ export default function HomeContent({
               transition={{ duration: 0.6, delay: 0.7, ease }}
               className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/80"
             >
-              Vertaile auto-, koti-, matka-, lemmikki- ja henkivakuutuksia kaikilta
-              suomalaisilta vakuutusyhtiöiltä. Kattava ja ilmainen palvelu.
+              Vertaile auto-, koti-, matka-, lemmikki- ja henkivakuutuksia Suomen
+              merkittävimmiltä vakuutusyhtiöiltä. Puolueeton ja ilmainen palvelu.
             </motion.p>
 
             {/* CTAs */}
@@ -361,11 +365,11 @@ export default function HomeContent({
             <ScrollReveal direction="left">
               <div className="max-w-xl">
                 <h2 className="text-2xl font-extrabold uppercase leading-tight tracking-wide text-white sm:text-3xl lg:text-4xl">
-                  Läpinäkyvä. Kattava. Ilmainen.
+                  Puolueeton. Kattava. Ilmainen.
                 </h2>
                 <p className="mt-6 text-lg leading-relaxed text-white/70">
                   Suomalaiset maksavat keskimäärin liikaa vakuutuksistaan. Valitse Vakuutus auttaa löytämään
-                  paremman turvan edullisemmin — vertailemalla kaikkien vakuutusyhtiöiden tuotteet kattavasti yhdessä paikassa.
+                  paremman turvan edullisemmin — samalla menetelmällä jokaiselle vakuutukselle, yhdessä paikassa.
                 </p>
                 <p className="mt-4 text-base leading-relaxed text-white/50">
                   Kilpailuttamalla vakuutuksesi voit säästää tyypillisesti 200–500 euroa vuodessa
@@ -433,7 +437,7 @@ export default function HomeContent({
                 Vakuutusyhtiöt vertailussa
               </h2>
               <p className="mt-3 text-slate-500">
-                Vertailemme kaikkia Suomen suurimpia vakuutusyhtiöitä
+                Vertailemme Suomen merkittävimpiä vakuutusyhtiöitä
               </p>
             </div>
           </ScrollReveal>

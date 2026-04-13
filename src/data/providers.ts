@@ -1792,7 +1792,6 @@ const popVakuutus: InsuranceProvider = {
   priceCompetitiveness: 9.2,
   isAffiliate: true,
   affiliateUrl: 'https://www.popvakuutus.fi',
-  affiliateDisclosure: 'POP Vakuutus on affiliate-kumppanimme. Saamme pienen korvauksen, kun otat vakuutuksen POP:sta linkkimme kautta. Tämä ei vaikuta hintaasi.',
   products: [],
   strengths: [
     'Markkinoiden edullisimmat hinnat — digitaalinen toimintamalli pitää kulut matalina',

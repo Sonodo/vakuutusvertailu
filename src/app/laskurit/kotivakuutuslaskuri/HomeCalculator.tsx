@@ -372,11 +372,6 @@ export default function HomeCalculator() {
                       <h3 className="text-lg font-bold text-navy">
                         {result.providerName}
                       </h3>
-                      {result.isAffiliate && (
-                        <span className="rounded bg-amber/10 px-2 py-0.5 text-xs font-medium text-amber">
-                          Mainos
-                        </span>
-                      )}
                     </div>
                     <div className="flex flex-wrap gap-2 mb-2">
                       {result.highlights.map((h, i) => (

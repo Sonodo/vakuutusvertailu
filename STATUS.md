@@ -5,7 +5,7 @@
 **Health**: GREEN
 **Domain**: valitsevakuutus.fi (custom domain)
 **GA4**: G-KS4VKK3Q98 (active)
-**Last Updated**: Session #080 — 2026-04-07
+**Last Updated**: Session #087 — 2026-04-12
 
 ## Overview
 Finnish insurance comparison platform — the missing mega-vertical. Insurance generates 54% of MoneySuperMarket's revenue but barely exists in Finland. Non-life insurance market is EUR 5.6B in annual premiums, with 30-50% price differences between providers for equivalent coverage. Compare auto, home, travel, pet, and life insurance from 10 Finnish providers.
@@ -20,6 +20,11 @@ Finnish insurance comparison platform — the missing mega-vertical. Insurance g
 - Market share data corrected, URL fixes applied
 
 ## Recent Changes
+
+### Session #087 — New Logo + Valitse-ID Infra (2026-04-12)
+- **New Valitse Vakuutus logo deployed**: Updated brand mark live in production (with .fi-text removal for cleaner look)
+- **Valitse-ID env vars set**: Shared Neon DB URL, Google OAuth client, AUTH_SECRET configured in Vercel
+- **Production redeploy completed**: Site serving new logo + Valitse-ID infrastructure ready for frontend wiring
 
 ### Session #080 — Compliance Audit (2026-04-07)
 - **Cookie consent added**: GDPR-compliant cookie banner implemented

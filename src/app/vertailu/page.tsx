@@ -28,16 +28,15 @@ export default function ComparisonPage() {
       <main className="min-h-screen bg-gray-50">
         <Breadcrumbs items={breadcrumbs} />
 
-        {/* Transparency Bar */}
+        {/* Method Bar */}
         <div className="border-b border-teal/20 bg-teal/5 px-4 py-3 sm:px-6 lg:px-8">
           <div className="mx-auto flex max-w-7xl items-center gap-3 text-sm text-teal-dark">
             <span className="flex-shrink-0 font-semibold">
               Näin vertailumme toimii:
             </span>
             <p className="text-gray-600">
-              Vertaamme 10 vakuutusyhtiön tuotteita. Osa linkeistä on mainoslinkkejä,
-              joista saamme pienen korvauksen. Tämä ei vaikuta vertailujärjestykseen tai
-              suosituksiimme.{' '}
+              Järjestys perustuu hintaan, kattavuuteen ja asiakastyytyväisyyteen —
+              sama menetelmä jokaiselle vakuutukselle.{' '}
               <a
                 href="/metodologia"
                 className="font-medium text-teal underline hover:text-teal-dark"
@@ -76,7 +75,6 @@ export default function ComparisonPage() {
               Tämä on vertailupalvelu, ei vakuutusneuvontaa. Hinta-arviot perustuvat
               julkisiin hintatietoihin ja ovat suuntaa-antavia. Lopullinen hinta riippuu
               yksilöllisistä tekijöistä. Pyydä sitova tarjous suoraan vakuutusyhtiöltä.
-              Affiliate-linkit on merkitty &quot;Mainos&quot;-tunnisteella.
             </p>
           </div>
         </section>

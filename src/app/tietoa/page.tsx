@@ -8,7 +8,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Tietoa meistä — Kuka tekee Valitse Vakuutuksen?',
   description:
-    'Valitse Vakuutus on kattava vakuutusvertailupalvelu. Lue miten toimimme, miten ansaitsemme ja miksi voit luottaa meihin.',
+    'Valitse Vakuutus auttaa suomalaisia löytämään sopivimman vakuutuksen. Järjestys perustuu hintaan, kattavuuteen ja asiakastyytyväisyyteen — sama menetelmä jokaiselle tuotteelle.',
   alternates: {
     canonical: `${SITE_URL}/tietoa`,
   },
@@ -35,68 +35,34 @@ export default function AboutPage() {
           <div className="prose max-w-none">
             <h2>Mikä on {SITE_NAME}?</h2>
             <p>
-              {SITE_NAME} on kattava vakuutusvertailupalvelu, joka auttaa suomalaisia
-              löytämään parhaan vakuutuksen omiin tarpeisiinsa. Vertailemme{' '}
-              <strong>10 suurimman suomalaisen vakuutusyhtiön</strong> tuotteita ja hintoja
-              yhdessä paikassa.
+              {SITE_NAME} on puolueeton vakuutusvertailupalvelu, joka auttaa suomalaisia
+              löytämään sopivimman vakuutuksen omiin tarpeisiinsa. Vertailemme{' '}
+              <strong>Suomen merkittävimpien vakuutusyhtiöiden</strong> tuotteita,
+              hintoja ja ehtoja yhdessä paikassa.
             </p>
 
-            <h2>Miksi me olemme olemassa?</h2>
+            <h2>Missiomme</h2>
             <p>
-              Suomen vakuutusmarkkinoilla on valtava läpinäkyvyysongelma. Monet
-              &quot;vertailusivustot&quot; näyttävät vain yhden tai kahden yhtiön tuotteita, eivätkä
-              kerro avoimesti miten ansaitsevat rahaa. Me halusimme tehdä toisin.
-            </p>
-            <p>
-              Uskomme, että kuluttajien tulisi voida vertailla kaikkien yhtiöiden tuotteita
-              yhdestä paikasta — mukaan lukien ne yhtiöt, jotka eivät maksa meille mitään.
-              Uskomme, että tämä on oikea tapa tehdä kattavaa vertailua.
+              Autamme suomalaisia tekemään paremman vakuutusvalinnan. Vertailemme
+              hintoja, kattavuutta ja asiakastyytyväisyyttä samalla menetelmällä
+              jokaiselle tuotteelle — jotta sinä saat selkeän kuvan markkinasta
+              yhdellä silmäyksellä ja voit päättää itse.
             </p>
 
-            <h2>Miten ansaitsemme rahaa?</h2>
-            <p>
-              Olemme täysin avoimia ansaintamallimme suhteen:
-            </p>
+            <h2>Mitä teemme</h2>
             <ul>
               <li>
-                <strong>Affiliate-linkit:</strong> Osa vakuutusyhtiöistä maksaa meille pienen
-                korvauksen, jos käyttäjä siirtyy sivuillemme kautta vakuutusyhtiön sivulle ja
-                ostaa vakuutuksen. Nämä linkit on merkitty selkeästi{' '}
-                <span className="rounded bg-amber/10 px-1.5 py-0.5 text-amber not-prose">
-                  Mainos
-                </span>
-                -tunnisteella.
+                Vertailemme <strong>auto-, koti-, matka-, lemmikki-, henki-,
+                tapaturma- ja lapsivakuutuksia</strong> kattavasti
               </li>
               <li>
-                <strong>Mainonta:</strong> Sivuillamme voi näkyä mainoksia. Mainokset on
-                eroteltu selkeästi toimituksellisesta sisällöstä.
-              </li>
-            </ul>
-
-            <div className="rounded-lg bg-teal/5 p-6 not-prose ring-1 ring-teal/20">
-              <p className="text-base font-semibold text-navy">
-                Affiliate-status EI vaikuta vertailujärjestykseen.
-              </p>
-              <p className="mt-2 text-sm text-gray-600">
-                Vertailumme järjestys perustuu aina hintaan, kattavuuteen ja
-                asiakastyytyväisyyteen — ei siihen, maksaako yhtiö meille vai ei.
-                Lue lisää{' '}
-                <Link href="/metodologia" className="font-medium text-teal underline">
-                  metodologiastamme
-                </Link>
-                .
-              </p>
-            </div>
-
-            <h2>Mitä näytämme — ja mitä emme</h2>
-            <ul>
-              <li>
-                Näytämme <strong>kaikki 10 suurinta vakuutusyhtiötä</strong>, myös ne
-                joiden kanssa meillä ei ole yhteistyösopimusta
+                Hinta-arviot perustuvat <strong>julkisiin hintatietoihin ja
+                vakuutusyhtiöiden verkkolaskureihin</strong> — suuntaa-antavia,
+                eivät sitovia tarjouksia
               </li>
               <li>
-                Hinta-arviot perustuvat <strong>julkisiin hintatietoihin</strong> ja ovat
-                suuntaa-antavia — emme tarjoa sitovia tarjouksia
+                Järjestys perustuu hintaan, kattavuuteen ja asiakastyytyväisyyteen —
+                sama menetelmä jokaiselle tuotteelle
               </li>
               <li>
                 Emme ole vakuutusneuvoja emmekä vakuutusmeklari — olemme tietopalvelu
@@ -111,27 +77,31 @@ export default function AboutPage() {
             <p>
               Hintatietomme perustuvat vakuutusyhtiöiden julkisiin hintatietoihin,
               verkkolaskureihin ja kuluttajakyselyihin. Päivitämme hintatiedot
-              neljännesvuosittain. Jokainen vertailusivu näyttää viimeisimmän
+              säännöllisesti. Jokainen vertailusivu näyttää viimeisimmän
               päivityspäivämäärän.
             </p>
 
             <h2>Arvomme</h2>
             <ul>
               <li>
-                <strong>Läpinäkyvyys:</strong> Kerromme avoimesti miten toimimme ja miten
-                ansaitsemme
+                <strong>Käyttäjä ensin:</strong> jokainen päätös optimoidaan sen
+                mukaan, mikä palvelee kuluttajaa parhaiten
               </li>
               <li>
-                <strong>Avoimuus:</strong> Vertailujärjestys perustuu dataan, ei
-                maksettuihin sopimuksiin
+                <strong>Puolueettomuus:</strong> sama menetelmä jokaiselle tuotteelle,
+                ei suosikkeja, ei piilotettuja tuloksia
               </li>
               <li>
-                <strong>Koulutus:</strong> Autamme kuluttajia ymmärtämään vakuutuksia ennen
-                ostopäätöstä
+                <strong>Ajantasaisuus:</strong> tarkistamme hintatiedot säännöllisesti,
+                jotta näet aina ajantasaisen kuvan markkinasta
               </li>
               <li>
-                <strong>Yksityisyyden suoja:</strong> Emme kerää henkilötietoja vertailun
-                tekemiseen
+                <strong>Koulutus:</strong> autamme ymmärtämään vakuutuksia ennen
+                ostopäätöstä — selkokielisiä oppaita ja vertailuja
+              </li>
+              <li>
+                <strong>Yksityisyyden suoja:</strong> emme kerää henkilötietoja
+                vertailun tekemiseen
               </li>
             </ul>
           </div>

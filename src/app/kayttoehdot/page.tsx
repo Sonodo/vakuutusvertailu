@@ -89,39 +89,12 @@ export default function TermsPage() {
               </li>
             </ul>
 
-            <h2>4. Affiliate-linkit ja kaupallinen yhteistyö</h2>
+            <h2>4. Kaupallinen viestintä</h2>
             <p>
-              Osa Palvelun linkeistä on affiliate-linkkejä. Kun käyttäjä siirtyy
-              affiliate-linkin kautta vakuutusyhtiön sivuille ja ostaa
-              vakuutuksen, saamme pienen korvauksen.
-            </p>
-            <ul>
-              <li>
-                Affiliate-linkit on merkitty selkeästi{' '}
-                <span className="rounded bg-amber/10 px-1.5 py-0.5 text-amber not-prose">
-                  Mainos
-                </span>
-                -tunnisteella
-              </li>
-              <li>
-                Affiliate-status <strong>ei vaikuta</strong> vertailujärjestykseen
-                tai suosituksiimme
-              </li>
-              <li>
-                Vertailujärjestys perustuu hintaan, kattavuuteen ja
-                asiakastyytyväisyyteen
-              </li>
-              <li>
-                Näytämme myös vakuutusyhtiöt, joiden kanssa meillä ei ole
-                yhteistyösopimusta
-              </li>
-            </ul>
-            <p>
-              Lisätietoja ansaintamallista:{' '}
-              <Link href="/metodologia" className="text-teal underline">
-                Näin vertailemme
-              </Link>
-              .
+              Palvelu voi saada korvauksen palveluntarjoajilta, joiden tuotteita
+              Palvelussa esitellään. Tämä järjestely ei vaikuta vertailun
+              järjestykseen, joka perustuu aina hintaan, kattavuuteen ja
+              asiakastyytyväisyyteen samalla menetelmällä jokaiselle tuotteelle.
             </p>
 
             <h2>5. Hintatiedot ja arviot</h2>

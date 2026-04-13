@@ -6,9 +6,9 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Näin vertailemme — Metodologia ja läpinäkyvyys',
+  title: 'Näin vertailemme — Metodologia',
   description:
-    'Lue miten Valitse Vakuutus vertailee vakuutuksia, miten järjestys lasketaan ja miksi affiliate-status ei vaikuta tuloksiin.',
+    'Näin Valitse Vakuutus vertailee vakuutuksia: järjestys perustuu hintaan, kattavuuteen ja asiakastyytyväisyyteen — sama menetelmä jokaiselle tuotteelle.',
   alternates: {
     canonical: `${SITE_URL}/metodologia`,
   },
@@ -33,16 +33,11 @@ export default function MethodologyPage() {
           </h1>
 
           <div className="prose max-w-none">
-            <div className="rounded-lg bg-amber/5 p-6 not-prose ring-1 ring-amber/20">
-              <p className="text-base font-bold text-navy">
-                Affiliate-status EI vaikuta vertailujärjestykseen.
-              </p>
-              <p className="mt-2 text-sm text-gray-600">
-                Tämä on ehdoton periaatteemme. Vaikka osa vakuutusyhtiöistä maksaa meille
-                korvauksen klikkauksista tai myynneistä, tämä ei koskaan vaikuta siihen,
-                miten vertailutulokset järjestetään tai miten yhtiöitä arvioidaan.
-              </p>
-            </div>
+            <p>
+              Vertailumme järjestys perustuu aina objektiivisiin kriteereihin —
+              hintaan, kattavuuteen, omavastuuseen ja asiakastyytyväisyyteen.
+              Sama menetelmä koskee jokaista vakuutusta.
+            </p>
 
             <h2>Vertailujärjestys</h2>
             <p>
@@ -64,7 +59,7 @@ export default function MethodologyPage() {
               </li>
             </ol>
 
-            <h2>Miten hinnat lasketaan?</h2>
+            <h2>Datalähteet ja hintojen laskenta</h2>
             <p>
               {SITE_NAME} esittää <strong>hinta-arvioita, ei sitovia tarjouksia</strong>.
               Hinta-arviot perustuvat:
@@ -76,8 +71,8 @@ export default function MethodologyPage() {
               <li>Toimialan raportteihin ja tilastoihin</li>
             </ul>
             <p>
-              Hinta-arviot päivitetään <strong>neljännesvuosittain</strong>. Jokainen
-              vertailusivu näyttää viimeisimmän päivityspäivämäärän.
+              Hinta-arviot päivitetään säännöllisesti. Jokainen vertailusivu
+              näyttää viimeisimmän päivityspäivämäärän.
             </p>
 
             <h2>Asiakastyytyväisyysarvosanat</h2>
@@ -108,8 +103,8 @@ export default function MethodologyPage() {
 
             <h2>Vakuutusyhtiöiden valinta</h2>
             <p>
-              Vertailuumme sisältyy <strong>10 suurinta suomalaista vakuutusyhtiötä</strong>,
-              jotka kattavat yhteensä yli 95 % Suomen vakuutusmarkkinoista:
+              Vertailuumme sisältyy <strong>Suomen merkittävimmät vakuutusyhtiöt</strong>,
+              jotka kattavat yhdessä yli 95 % Suomen vakuutusmarkkinoista:
             </p>
             <ol>
               <li>Pohjola Vakuutus / OP (32,6 % markkinaosuus)</li>
@@ -123,11 +118,6 @@ export default function MethodologyPage() {
               <li>Alandia (erikoisvakuuttaja)</li>
               <li>Säästöpankki Vakuutus</li>
             </ol>
-            <p>
-              Näytämme kaikki yhtiöt — myös ne, joiden kanssa meillä ei ole
-              yhteistyösopimusta. Jos yhtiö puuttuu vertailusta, se johtuu siitä,
-              ettei yhtiöstä ole riittävästi julkista hintatietoa.
-            </p>
 
             <h2>Tietojen todentaminen</h2>
             <p>
@@ -138,23 +128,15 @@ export default function MethodologyPage() {
               <li>Kerätään hintatiedot vakuutusyhtiöiden verkkolaskureista</li>
               <li>Ristiinajetaan usean lähteen tiedot</li>
               <li>Merkitään viimeinen tarkistuspäivämäärä jokaiselle tiedolle</li>
-              <li>Päivitetään tiedot neljännesvuosittain tai kun hinnanmuutoksia havaitaan</li>
+              <li>Päivitetään tiedot säännöllisesti ja aina kun hinnanmuutoksia havaitaan</li>
             </ol>
 
-            <h2>Affiliate-linkit ja läpinäkyvyys</h2>
-            <p>
-              Joidenkin vakuutusyhtiöiden linkit ovat affiliate-linkkejä, mikä tarkoittaa:
-            </p>
+            <h2>Mitä emme tee</h2>
             <ul>
-              <li>Saamme pienen korvauksen, jos käyttäjä ostaa vakuutuksen linkin kautta</li>
-              <li>Linkki on merkitty selkeästi &quot;Mainos&quot;-tunnisteella</li>
-              <li>Linkki sisältää <code>rel=&quot;sponsored nofollow&quot;</code> -attribuutin</li>
-              <li>
-                <strong>
-                  Korvaus ei vaikuta vertailujärjestykseen, pisteytykseen tai
-                  toimitukselliseen sisältöön
-                </strong>
-              </li>
+              <li>Ei dark patterneja</li>
+              <li>Ei väärennettyjä arvosteluja</li>
+              <li>Ei piilotettuja kustannuksia</li>
+              <li>Emme myy käyttäjätietoja</li>
             </ul>
 
             <h2>Vastuuvapauslauseke</h2>

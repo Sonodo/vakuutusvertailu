@@ -237,11 +237,6 @@ export default function SavingsCalculator() {
                       <h3 className="text-lg font-bold text-navy">
                         {result.providerName}
                       </h3>
-                      {result.isAffiliate && (
-                        <span className="rounded bg-amber/10 px-2 py-0.5 text-xs font-medium text-amber">
-                          Mainos
-                        </span>
-                      )}
                     </div>
                     <div className="flex gap-4 text-sm text-gray-500">
                       <span>Auto: ~{formatCurrency(result.estimatedAuto)}</span>
