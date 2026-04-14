@@ -1,5 +1,5 @@
 // ============================================================
-// Vakuutusvertailu — Regional / City Insurance Data
+// Valitse Vakuutus — Regional / City Insurance Data
 // City-specific data for local SEO pages
 // ============================================================
 

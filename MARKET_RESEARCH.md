@@ -1,4 +1,4 @@
-# Vakuutusvertailu — Finnish Insurance Market Research
+# Valitse Vakuutus — Finnish Insurance Market Research
 
 **Prepared**: March 2026
 **Classification**: Internal — Strategic Planning

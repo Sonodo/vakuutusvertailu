@@ -340,17 +340,30 @@ export default async function ProviderDetailPage({
                   Kiinnostaako {provider.name}?
                 </h2>
                 <p className="mb-6 text-sm text-gray-600">
-                  Siirry tarjoajan sivuille ja pyydä tarjous.
+                  Siirry yhtiön omalle sivulle ja pyydä virallinen tarjous.
                 </p>
                 {provider.isAffiliate && provider.affiliateUrl ? (
-                  <a
-                    href={provider.affiliateUrl}
-                    rel="sponsored nofollow noopener"
-                    target="_blank"
-                    className="inline-block rounded-lg bg-teal px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-teal-dark"
-                  >
-                    Siirry tarjoajalle
-                  </a>
+                  <>
+                    <a
+                      href={provider.affiliateUrl}
+                      rel="sponsored nofollow noopener"
+                      target="_blank"
+                      className="inline-flex items-center gap-2 rounded-lg bg-amber px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-amber/90"
+                    >
+                      <span className="rounded bg-white/25 px-2 py-0.5 text-xs font-bold uppercase tracking-wide">
+                        Mainos
+                      </span>
+                      Siirry {provider.name}n sivuille
+                    </a>
+                    <p className="mt-4 text-xs text-gray-500">
+                      Linkki on kumppanuuslinkki. Jos otat vakuutuksen, saamme komission.
+                      Sinulle hinta on täsmälleen sama. Lue{' '}
+                      <Link href="/metodologia#nain-ansaitsemme" className="text-teal underline hover:text-teal-dark">
+                        miten ansaitsemme rahaa
+                      </Link>
+                      .
+                    </p>
+                  </>
                 ) : (
                   <a
                     href={provider.website}
@@ -358,7 +371,7 @@ export default async function ProviderDetailPage({
                     rel="noopener noreferrer"
                     className="inline-block rounded-lg bg-navy px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-navy-light"
                   >
-                    Siirry tarjoajalle
+                    Siirry yhtiön sivuille
                   </a>
                 )}
               </section>

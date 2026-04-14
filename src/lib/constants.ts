@@ -2,11 +2,16 @@ import type { InsuranceTypeInfo, NavItem } from '@/types';
 
 // --- Site Configuration ---
 
-export const SITE_NAME = 'Vakuutusvertailu';
+export const SITE_NAME = 'Valitse Vakuutus';
+export const SITE_NAME_GENITIVE = 'Valitse Vakuutuksen';
 export const SITE_URL = 'https://valitsevakuutus.fi';
 export const SITE_DESCRIPTION =
-  'Puolueeton vakuutusvertailu. Vertaa autovakuutuksia, kotivakuutuksia, matkavakuutuksia, lemmikkivakuutuksia ja henkivakuutuksia — Suomen merkittävimmät vakuutusyhtiöt yhdessä paikassa.';
+  'Vakuutusvertailupalvelu. Vertaa autovakuutuksia, kotivakuutuksia, matkavakuutuksia, lemmikkivakuutuksia ja henkivakuutuksia — Suomen merkittävimmät vakuutusyhtiöt yhdessä paikassa.';
 export const SITE_TAGLINE = 'Vertaa. Säästä. Vakuuta.';
+
+// --- Compliance & Disclosure ---
+export const COMPLIANCE_DISCLOSURE =
+  'Valitse Vakuutus on vertailupalvelu, ei vakuutuksenvälittäjä eikä vakuutusasiamies. Emme anna henkilökohtaista vakuutusneuvontaa. Vertailun järjestykseen eivät vaikuta mahdolliset mainoskumppanuudet.';
 
 // --- Colors (Brand Palette) ---
 
@@ -41,7 +46,7 @@ export const INSURANCE_TYPES: InsuranceTypeInfo[] = [
     name: 'Autovakuutus',
     shortName: 'Auto',
     description:
-      'Vertaa liikenne- ja kaskovakuutuksia. Löydä halvin autovakuutus ja säästä satoja euroja vuodessa.',
+      'Vertaa liikenne- ja kaskovakuutuksia. Löydä sopiva autovakuutus ja säästä satoja euroja vuodessa. Liikennevakuutus on pakollinen — säästöt syntyvät vertailemalla hinnoittelueroja samalla turvan tasolla.',
     icon: 'Car',
     color: '#0891b2',
     marketSize: '~1,5 mrd €',
@@ -141,13 +146,14 @@ export const BONUS_CLASSES = Array.from({ length: 14 }, (_, i) => ({
 export const MAIN_NAV: NavItem[] = [
   {
     label: 'Vakuutukset',
-    href: '#',
+    href: '/vakuutukset',
     children: INSURANCE_TYPES.map((t) => ({
       label: t.name,
       href: `/${t.slug}`,
     })),
   },
   { label: 'Vertailu', href: '/vertailu' },
+  { label: 'Laskurit', href: '/laskurit' },
   { label: 'Vakuutusyhtiöt', href: '/vakuutusyhtiot' },
   { label: 'Oppaat', href: '/oppaat' },
   { label: 'Blogi', href: '/blogi' },

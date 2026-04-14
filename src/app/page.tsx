@@ -8,13 +8,13 @@ import { INSURANCE_TYPES, SITE_NAME, SITE_URL } from '@/lib/constants';
 import HomeContent from './home-content';
 
 export const metadata: Metadata = {
-  title: `Vakuutusvertailu 2026 — Vertaa vakuutuksia ja säästä | ${SITE_NAME}`,
+  title: `Vakuutusvertailu 2026 — Vertaa vakuutuksia | ${SITE_NAME}`,
   description:
-    'Vertaa autovakuutuksia, kotivakuutuksia, matkavakuutuksia ja lemmikkivakuutuksia kattavasti. Löydä halvin vakuutus 10 yhtiön vertailusta. 100% ilmainen palvelu.',
+    'Vertaa kymmenen vakuutusyhtiön autovakuutuksia, kotivakuutuksia, matkavakuutuksia ja lemmikkivakuutuksia. Hinta-arviot julkisten tietojen perusteella. Ilmainen, puolueeton tietopalvelu.',
   openGraph: {
-    title: `${SITE_NAME} — Vertaa vakuutuksia ja löydä halvin vakuutus`,
+    title: `${SITE_NAME} — Vertaa vakuutuksia ja löydä sopiva turva`,
     description:
-      'Vertaa vakuutuksia kaikilta suomalaisilta vakuutusyhtiöiltä. Löydä halvin vakuutus. Ilmainen ja kattava.',
+      'Vertaa vakuutuksia merkittävimmiltä suomalaisilta vakuutusyhtiöiltä. Kattava vertailu, läpinäkyvä menetelmä — ilmainen tietopalvelu.',
     url: '/',
     type: 'website',
   },

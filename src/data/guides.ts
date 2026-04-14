@@ -1,5 +1,5 @@
 // ============================================================
-// Vakuutusvertailu — Educational Guides Data
+// Valitse Vakuutus — Educational Guides Data
 // 5 comprehensive Finnish-language guides
 // ============================================================
 
@@ -1077,7 +1077,7 @@ const lemmikkivakuutusOpas: Guide = {
     <tr><th>Yhtiö</th><th>Hinta (koira, laaja)</th><th>Korvausraja (€/v)</th><th>Karenssi</th><th>Erityistä</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="/vakuutusyhtiot/pop-vakuutus">POP Vakuutus</a></td><td>25–45 €/kk</td><td>5 000–8 000</td><td>14 pv</td><td>Edullisin, verkkopalvelu</td></tr>
+    <tr><td><a href="/vakuutusyhtiot/pop-vakuutus">POP Vakuutus</a></td><td>25–45 €/kk</td><td>5 000–8 000</td><td>14 pv</td><td>Usein kilpailukykyinen hinta, verkkopalvelu</td></tr>
     <tr><td><a href="/vakuutusyhtiot/if">If</a></td><td>30–55 €/kk</td><td>5 000–10 000</td><td>30 pv</td><td>Hyvä korvauspalvelu</td></tr>
     <tr><td><a href="/vakuutusyhtiot/pohjola">OP/Pohjola</a></td><td>32–58 €/kk</td><td>4 000–8 000</td><td>30 pv</td><td>OP-bonus pienentää maksua</td></tr>
     <tr><td><a href="/vakuutusyhtiot/lahitapiola">LähiTapiola</a></td><td>30–55 €/kk</td><td>5 000–7 500</td><td>14 pv</td><td>Laaja palveluverkosto</td></tr>
@@ -1117,7 +1117,7 @@ const lemmikkivakuutusOpas: Guide = {
 <h2 id="vinkit">Vinkit parhaan vakuutuksen valintaan</h2>
 
 <ol>
-  <li><strong>Vertaile kokonaisuutta, älä pelkkää hintaa:</strong> Halvin vakuutus voi olla kallis, jos korvausraja on matala tai omavastuu korkea</li>
+  <li><strong>Vertaile kokonaisuutta, älä pelkkää hintaa:</strong> Edullisin vakuutus voi olla kokonaisuudessaan kallis, jos korvausraja on matala tai omavastuu korkea</li>
   <li><strong>Tarkista korvausraja:</strong> Varmista, että vuotuinen korvausraja on vähintään 5 000 € — yksi leikkaus voi ylittää matalamman rajan</li>
   <li><strong>Huomioi karenssi:</strong> Jos sinulla on jo pentu, lyhyempi karenssi (14 pv) on parempi kuin pidempi (30 pv)</li>
   <li><strong>Rotukohtaiset rajoitukset:</strong> Jos sinulla on brachykefaalinen rotu (bulldoggi, mopsi), tarkista, kattaako vakuutus hengitystieleikkaukset</li>
@@ -1150,7 +1150,7 @@ const lemmikkivakuutusOpas: Guide = {
 <h3>Miten lemmikkivakuutus eroaa kotivakuutuksen vastuuturvasta?</h3>
 <p>Kotivakuutuksen vastuuvakuutus korvaa vahinkoja, jotka lemmikki aiheuttaa <em>muille</em> — esimerkiksi koira puree vierasta henkilöä tai vahingoittaa toisen omaisuutta. Lemmikkivakuutus korvaa <em>lemmikin oman</em> hoidon. Nämä ovat siis täysin eri vakuutuksia, ja lemmikille tarvitaan molemmat: kotivakuutus vastuuturvineen ja erillinen lemmikkivakuutus eläinlääkärikuluihin.</p>
 
-<p>Vertaile lemmikkivakuutuksia <a href="/lemmikkivakuutus">vertailusivullamme</a> ja löydä lemmikillesi paras turva. Jos sinulla on kysyttävää vakuutuksen valinnasta, tutustu myös <a href="/oppaat/mita-vakuutus-korvaa">korvausoppaaseemme</a> tai lue artikkelimme <a href="/blogi/lemmikkivakuutus-2026">lemmikkivakuutuksista vuonna 2026</a>.</p>
+<p>Vertaile lemmikkivakuutuksia <a href="/lemmikkivakuutus">vertailusivullamme</a> ja löydä lemmikillesi sopiva turva. Jos sinulla on kysyttävää vakuutuksen valinnasta, tutustu myös <a href="/oppaat/mita-vakuutus-korvaa">korvausoppaaseemme</a> tai lue artikkelimme <a href="/blogi/lemmikkivakuutus-2026">lemmikkivakuutuksista vuonna 2026</a>.</p>
 `,
 };
 

@@ -1,5 +1,5 @@
 // ============================================================
-// Vakuutusvertailu — Type Definitions
+// Valitse Vakuutus — Type Definitions
 // ============================================================
 
 // --- Insurance Types ---

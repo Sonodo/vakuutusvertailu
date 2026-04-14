@@ -9,7 +9,7 @@ const CLARITY_ID = process.env.NODE_ENV === 'production' ? 'w9nc2vecgl' : '';
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE_NAME} — Vertaa vakuutuksia ja säästä | Suomen kattava vakuutusvertailu`,
+    default: `${SITE_NAME} — Vertaa vakuutuksia | Suomen kattava vakuutusvertailu`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     locale: 'fi_FI',
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Vertaa vakuutuksia ja säästä`,
+    title: `${SITE_NAME} — Vertaa vakuutuksia`,
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${SITE_NAME} — Vertaa vakuutuksia ja säästä`,
+    title: `${SITE_NAME} — Vertaa vakuutuksia`,
     description: SITE_DESCRIPTION,
   },
   robots: {
@@ -46,6 +46,8 @@ const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,
+  logo: `${SITE_URL}/icon.png`,
+  sameAs: [] as string[],
 };
 
 const websiteSchema = {
@@ -54,6 +56,11 @@ const websiteSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${SITE_URL}/vertailu?type={search_term}`,
+    'query-input': 'required name=search_term',
+  },
 };
 
 export default function RootLayout({
@@ -78,6 +85,9 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
+        <Script id="gtag-consent-default" strategy="beforeInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});`}
+        </Script>
         <GoogleAnalytics />
         {CLARITY_ID && (
           <>

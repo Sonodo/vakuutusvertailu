@@ -337,22 +337,36 @@ export default function HomeCalculator() {
             </div>
           </div>
 
+          {/* Disclaimer — shown above results for compliance */}
+          <div className="mb-6 rounded-xl bg-amber/5 border border-amber/20 p-4">
+            <div className="flex gap-2">
+              <Info className="h-5 w-5 text-amber shrink-0 mt-0.5" />
+              <p className="text-sm text-gray-600">
+                <strong>Nämä ovat hinta-arvioita</strong>, eivät sitovia tarjouksia.
+                Arviot perustuvat julkisiin hintatietoihin ja yleishinnoitteluun.
+                Lopullinen vakuutusmaksu riippuu yksilöllisistä tekijöistä
+                (sijainti, rakennustyyppi, aiemmat vahingot). Pyydä virallinen tarjous
+                yhtiöltä ennen päätöstä.
+              </p>
+            </div>
+          </div>
+
           {/* Cheapest highlight */}
           <div className="mb-6 rounded-2xl border-2 border-teal bg-teal/5 p-5">
             <div className="flex items-center gap-2 mb-1">
               <span className="rounded-full bg-teal px-3 py-0.5 text-xs font-bold text-white">
-                Halvin
+                Edullisin arvio
               </span>
             </div>
             <p className="text-lg font-bold text-navy">
               {results[0].providerName} — {formatCurrency(results[0].estimated)}/vuosi
             </p>
             <p className="text-sm text-gray-600">
-              Säästäisit jopa{' '}
+              Arvioiden välinen ero edullisimmasta kalleimpaan:{' '}
               <strong className="text-teal">
                 {formatCurrency(results[results.length - 1].estimated - results[0].estimated)}
               </strong>{' '}
-              vuodessa verrattuna kalleimpaan vaihtoehtoon.
+              vuodessa. Todelliset hinnat voivat poiketa arvioista.
             </p>
           </div>
 
@@ -402,15 +416,18 @@ export default function HomeCalculator() {
                         href={result.affiliateUrl}
                         target="_blank"
                         rel="sponsored nofollow noopener"
-                        className="flex min-h-[44px] items-center gap-1.5 rounded-lg bg-teal px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-dark whitespace-nowrap"
+                        className="flex min-h-[44px] items-center gap-1.5 rounded-lg bg-amber px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-amber/90 whitespace-nowrap"
                       >
+                        <span className="rounded-sm bg-white/20 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide">
+                          Mainos
+                        </span>
                         Siirry yhtiöön
                         <ExternalLink className="h-3.5 w-3.5" />
                       </a>
                     ) : (
                       <Link
                         href={`/vakuutusyhtiot/${result.providerSlug}`}
-                        className="flex min-h-[44px] items-center gap-1.5 rounded-lg bg-teal px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-dark whitespace-nowrap"
+                        className="flex min-h-[44px] items-center gap-1.5 rounded-lg border border-teal px-5 py-2.5 text-sm font-semibold text-teal transition-colors hover:bg-teal/5 whitespace-nowrap"
                       >
                         Katso lisää
                         <ExternalLink className="h-3.5 w-3.5" />

@@ -85,7 +85,7 @@ const howItWorks = [
     step: 3,
     icon: ArrowRight,
     title: 'Vakuuta',
-    desc: 'Siirry suoraan vakuutusyhtiön sivuille ja hanki valitsemasi vakuutus. Helppoa ja nopeaa.',
+    desc: 'Siirry suoraan vakuutusyhtiön sivuille ja hanki valitsemasi vakuutus. Vertailu vie alle 2 minuuttia.',
   },
 ];
 
@@ -102,8 +102,8 @@ const valueProps = [
   },
   {
     icon: TrendingDown,
-    title: 'Säästä satoja euroja',
-    description: 'Suomalaiset maksavat keskimäärin liikaa vakuutuksistaan. Kilpailuttamalla voit säästää 200–500 €/vuosi.',
+    title: 'Säästöjä vertailulla',
+    description: 'Moni suomalainen voi maksaa vakuutuksistaan enemmän kuin tarpeen. Kilpailuttamalla voi säästää yksittäisessä tapauksessa satoja euroja vuodessa.',
   },
   {
     icon: Scale,
@@ -191,7 +191,7 @@ export default function HomeContent({
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-400 opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-accent-400" />
               </span>
-              Vakuutusvertailu 2026
+              Vakuutusvertailu · päivitetty 2026
             </motion.div>
 
             {/* Animated heading */}
@@ -302,7 +302,7 @@ export default function HomeContent({
               Mitä vakuutusta etsit?
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-center text-slate-500">
-              Valitse vakuutuslaji ja löydä sinulle sopivin vaihtoehto parhaaseen hintaan
+              Valitse vakuutuslaji ja löydä sinulle sopivin vaihtoehto kilpailukykyiseen hintaan
             </p>
           </ScrollReveal>
 
@@ -368,11 +368,11 @@ export default function HomeContent({
                   Puolueeton. Kattava. Ilmainen.
                 </h2>
                 <p className="mt-6 text-lg leading-relaxed text-white/70">
-                  Suomalaiset maksavat keskimäärin liikaa vakuutuksistaan. Valitse Vakuutus auttaa löytämään
-                  paremman turvan edullisemmin — samalla menetelmällä jokaiselle vakuutukselle, yhdessä paikassa.
+                  Moni suomalainen voi maksaa vakuutuksistaan enemmän kuin tarpeen. Valitse Vakuutus auttaa vertailemaan
+                  kattavuutta ja hintaa samalla menetelmällä jokaiselle vakuutukselle, yhdessä paikassa.
                 </p>
                 <p className="mt-4 text-base leading-relaxed text-white/50">
-                  Kilpailuttamalla vakuutuksesi voit säästää tyypillisesti 200–500 euroa vuodessa
+                  Kilpailuttamalla vakuutuksesi voit yksittäisessä tapauksessa säästää satoja euroja vuodessa
                   menettämättä kattavuutta. Hinta-arviomme perustuvat vakuutusyhtiöiden julkisiin laskureihin.
                 </p>
                 <div className="mt-8">
@@ -417,8 +417,8 @@ export default function HomeContent({
             stats={[
               { end: providerCount, label: 'Vakuutusyhtiötä' },
               { end: insuranceTypeCount, label: 'Vakuutuslajia' },
-              { end: 500, suffix: ' €', label: 'Säästöpotentiaali/v' },
-              { end: 0, suffix: ' €', label: 'Hintaa palvelusta' },
+              { end: 10, label: 'Eri vakuutuslajia rinnan' },
+              { end: 100, suffix: ' %', label: 'Ilmainen käyttää' },
             ]}
           />
         </div>
@@ -446,7 +446,7 @@ export default function HomeContent({
             {providers.map((provider, i) => (
               <ScrollReveal key={provider.id} delay={i * 0.06} direction="up">
                 <Link
-                  href={`/yhtiot/${provider.slug}`}
+                  href={`/vakuutusyhtiot/${provider.slug}`}
                   className="card-hover group flex flex-col items-center text-center"
                 >
                   <div
@@ -479,7 +479,7 @@ export default function HomeContent({
                 Näin helppoa se on
               </h2>
               <p className="mt-3 text-slate-500">
-                Löydä paras vakuutus kolmessa askeleessa
+                Löydä sopiva vakuutus kolmessa askeleessa
               </p>
             </div>
           </ScrollReveal>
@@ -518,11 +518,12 @@ export default function HomeContent({
           <ScrollReveal direction="up">
             <ShieldCheck className="mx-auto h-12 w-12 text-white/80" />
             <h2 className="mt-6 text-2xl font-extrabold uppercase tracking-wide text-white sm:text-3xl">
-              Keskimäärin 300 € säästö vuodessa
+              Säästöpotentiaali jopa satoja euroja vuodessa
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-white/80">
-              Tutkimusten mukaan vakuutusten kilpailuttaminen säästää suomalaiselle kotitaloudelle
-              keskimäärin 200–500 euroa vuodessa. Vertailu on ilmaista — säästöt todellisia.
+              Kilpailuttaminen voi tuoda yksittäisessä tapauksessa satoja euroja säästöä vuodessa —
+              lopullinen hyöty riippuu nykyisestä vakuutuksestasi, tarpeistasi ja yksilöllisistä tekijöistä.
+              Vertailu on ilmaista.
             </p>
             <div className="mt-8">
               <Link
@@ -548,7 +549,7 @@ export default function HomeContent({
               Miksi Valitse Vakuutus?
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-center text-slate-500">
-              Vertaile eri tapoja löytää paras vakuutus
+              Vertaile eri tapoja löytää sopiva vakuutus
             </p>
           </ScrollReveal>
 
@@ -572,7 +573,7 @@ export default function HomeContent({
                 <tbody className="divide-y divide-slate-100 bg-white text-sm">
                   {[
                     { label: 'Kattavuus', a: 'Yhtiö kerrallaan', b: '3–5 yhtiötä', c: 'Kaikki 10 yhtiötä' },
-                    { label: 'Läpinäkyvyys', a: 'Mainokset vaikuttavat', b: 'Provisiopohjaisuus', c: 'Avoin menetelmä' },
+                    { label: 'Läpinäkyvyys', a: 'Mainokset vaikuttavat', b: 'Provisiopohjaisuus', c: 'Avoin menetelmä, mainoslinkit merkitty' },
                     { label: 'Vertailu rinnakkain', a: 'Vaikea vertailla', b: 'Rajallinen', c: 'Selkeä taulukko' },
                     { label: 'Ajankäyttö', a: 'Tunteja', b: 'Tapaamiset', c: 'Muutama minuutti' },
                     { label: 'Hinta', a: 'Ilmainen', b: 'Palkkiopohjainen', c: 'Ilmainen' },
@@ -717,7 +718,7 @@ export default function HomeContent({
           <ScrollReveal direction="up">
             <AnimatedHeading
               as="h2"
-              text="Löydä sinulle paras vakuutus"
+              text="Löydä sinulle sopiva vakuutus"
               className="text-3xl font-extrabold text-white sm:text-4xl"
             />
             <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70 leading-relaxed">

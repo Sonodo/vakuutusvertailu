@@ -41,23 +41,56 @@ export default function MethodologyPage() {
 
             <h2>Vertailujärjestys</h2>
             <p>
-              Oletuksena vertailutulokset järjestetään <strong>halvimmasta kalleimpaan</strong>.
+              Oletuksena vertailutulokset järjestetään <strong>edullisimmasta kalleimpaan</strong> hinta-arvion mukaan.
               Käyttäjä voi vaihtaa järjestyksen myös seuraaviin:
             </p>
             <ol>
               <li>
-                <strong>Halvin ensin</strong> — Edullisin arvioitu vuosihinta ylimmäisenä
+                <strong>Edullisin arvio ensin</strong> — matalin arvioitu vuosihinta ylimmäisenä
               </li>
               <li>
-                <strong>Kattavin ensin</strong> — Laajin turva ja eniten sisältyvät korvaukset
+                <strong>Kattavin ensin</strong> — laajin turva ja eniten sisältyvät korvaukset
               </li>
               <li>
-                <strong>Suosituin</strong> — Suurimman markkinaosuuden omaavat yhtiöt
+                <strong>Suurin markkinaosuus ensin</strong> — suurimman markkinaosuuden omaavat yhtiöt
               </li>
               <li>
-                <strong>Tyytyväisimmät asiakkaat</strong> — Korkein asiakastyytyväisyysarvosana
+                <strong>Tyytyväisimmät asiakkaat</strong> — korkein asiakastyytyväisyysarvosana
               </li>
             </ol>
+            <p>
+              <strong>Tärkeää:</strong> Affiliate- tai mainossopimus yhtiön kanssa{' '}
+              <strong>ei vaikuta järjestykseen</strong>. Sama algoritmi koskee jokaista
+              yhtiötä riippumatta siitä, saammeko linkistä komissiota.
+            </p>
+
+            <h2 id="nain-ansaitsemme">Näin ansaitsemme</h2>
+            <p>
+              {SITE_NAME} on ilmainen käyttäjille. Pidämme palvelun pystyssä kahdella tavalla:
+            </p>
+            <ol>
+              <li>
+                <strong>Affiliate-komissiot.</strong> Osa vakuutusyhtiöiden linkeistä on
+                kumppanuuslinkkejä. Jos siirryt niiden kautta yhtiön sivulle ja otat
+                vakuutuksen, saamme kiinteän komission. Sinulle hinta on täsmälleen
+                sama kuin ilman linkkiämme — komissio tulee yhtiön omasta markkinointibudjetista.
+              </li>
+              <li>
+                <strong>Mainonta.</strong> Saatamme näyttää sivustolla Google Adsense -mainoksia
+                tai muuta display-mainontaa.
+              </li>
+            </ol>
+            <p>
+              Jokainen mainos- tai affiliate-linkki on merkitty selkeästi{' '}
+              <strong>Mainos-merkinnällä</strong> ja käyttää{' '}
+              <code>rel="sponsored nofollow"</code> -attribuutteja.
+              Emme saa komissiota sisällöstä (artikkelit, oppaat, vertailutaulukot)
+              eikä affiliate-sopimus vaikuta siihen, mitä yhtiöitä vertailuumme sisältyy
+              tai missä järjestyksessä ne näkyvät.
+            </p>
+            <p>
+              <em>Lähde: Käyttöehdot §4 — Affiliate- ja kumppanuussuhteet.</em>
+            </p>
 
             <h2>Datalähteet ja hintojen laskenta</h2>
             <p>

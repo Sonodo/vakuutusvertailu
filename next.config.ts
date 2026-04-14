@@ -9,10 +9,12 @@ const cspPolicy = [
   "img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com https://c.bing.com https://c.clarity.ms https://lh3.googleusercontent.com",
   "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://*.clarity.ms https://accounts.google.com",
   "frame-src https://accounts.google.com",
+  "frame-ancestors 'none'",
   "worker-src 'self' blob:",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
+  'upgrade-insecure-requests',
 ].join('; ');
 
 const nextConfig: NextConfig = {

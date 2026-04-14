@@ -1,4 +1,4 @@
-# Vakuutusvertailu — MVP Product Blueprint
+# Valitse Vakuutus — MVP Product Blueprint
 
 **Prepared**: March 2026
 **Classification**: Internal — Product Design

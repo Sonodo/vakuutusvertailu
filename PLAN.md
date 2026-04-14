@@ -1,4 +1,4 @@
-# Vakuutusvertailu — Development Plan
+# Valitse Vakuutus — Development Plan
 
 ## Vision
 Finland's most comprehensive, transparent insurance comparison site. Help Finnish consumers find the best insurance for their needs — auto, home, travel, pet, life, and health — from all major Finnish providers. Consumer-first: show real coverage differences, not just price. Built as a Vertailu Hub spoke from day one.
@@ -18,8 +18,8 @@ Finland's most comprehensive, transparent insurance comparison site. Help Finnis
 4. **Future**: Premium comparison tools, policy management dashboard, renewal reminders
 
 ## Target Domain
-- Primary: vakuutusvertailu.fi ("insurance comparison" in Finnish — exact match domain)
-- Alternative: vakuutusvertaa.fi ("compare insurance")
+- Primary: valitsevakuutus.fi (live — Valitse Group brand)
+- Historical note: original plan targeted vakuutusvertailu.fi; project was rebranded to the Valitse Group umbrella 2026-04-13
 - Status: Research in progress
 
 ## Finnish Insurance Providers to Include

@@ -15,25 +15,25 @@ interface InsuranceCard {
 const CARDS: InsuranceCard[] = [
   {
     title: 'Autovakuutus',
-    description: 'Vertaa liikenne- ja kaskovakuutuksia 10 yhtiolta.',
+    description: 'Vertaa liikenne- ja kaskovakuutuksia 10 yhtiöltä.',
     href: '/autovakuutus',
     Icon: Car,
   },
   {
     title: 'Kotivakuutus',
-    description: 'Loyda kattava suoja kodillesi edullisesti.',
+    description: 'Löydä kodillesi kattava turva kilpailukykyiseen hintaan.',
     href: '/kotivakuutus',
     Icon: Home,
   },
   {
     title: 'Matkavakuutus',
-    description: 'Matkusta turvallisesti, vertaile vakuutukset.',
+    description: 'Matkusta turvallisesti — vertaile matkavakuutuksia.',
     href: '/matkavakuutus',
     Icon: Plane,
   },
   {
     title: 'Lemmikkivakuutus',
-    description: 'Elainlaakarikulut hallintaan vakuutuksella.',
+    description: 'Eläinlääkärikulut hallintaan vakuutuksella.',
     href: '/lemmikkivakuutus',
     Icon: PawPrint,
   },
@@ -51,7 +51,7 @@ export default function InsuranceTypeCards() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="mb-12 text-center">
-            <h2 className="section-title">Mita vakuutusta etsit?</h2>
+            <h2 className="section-title">Mitä vakuutusta etsit?</h2>
             <p className="section-subtitle">
               Vertaa hintoja ja ehtoja kaikissa vakuutuslajeissa
             </p>

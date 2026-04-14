@@ -8,7 +8,7 @@ import PetCalculator from './PetCalculator';
 export const metadata: Metadata = {
   title: 'Lemmikkivakuutuslaskuri — Laske lemmikkivakuutuksen hinta | Valitse Vakuutus',
   description:
-    'Laske lemmikkivakuutuksen hinta koiralle, kissalle tai kanille. Vertaa lemmikkivakuutuksia kaikilta Suomen vakuutusyhtiöiltä ja löydä halvin vaihtoehto.',
+    'Laske lemmikkivakuutuksen hinta-arvio koiralle, kissalle tai kanille. Vertaa lemmikkivakuutuksia kaikilta Suomen vakuutusyhtiöiltä ja löydä sinulle sopiva vaihtoehto.',
   alternates: {
     canonical: `${SITE_URL}/laskurit/lemmikkivakuutuslaskuri`,
   },

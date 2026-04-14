@@ -99,9 +99,12 @@ export default function ProductCard({ product, provider }: ProductCardProps) {
             href={provider.affiliateUrl}
             target="_blank"
             rel="sponsored nofollow noopener"
-            className="inline-flex min-h-[44px] w-full items-center justify-center rounded-lg bg-teal px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-dark"
+            className="inline-flex min-h-[44px] w-full items-center justify-center gap-1.5 rounded-lg bg-amber px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-amber/90"
           >
-            Näytä tarjous
+            <span className="rounded-sm bg-white/20 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide">
+              Mainos
+            </span>
+            Siirry yhtiön sivulle
           </a>
         ) : (
           <Link

@@ -81,6 +81,39 @@ export default function AboutPage() {
               päivityspäivämäärän.
             </p>
 
+            <h2 id="nain-ansaitsemme">Näin ansaitsemme rahaa</h2>
+            <p>
+              {SITE_NAME} on ilmainen käyttäjille. Pidämme palvelun pystyssä
+              kahdella tavalla:
+            </p>
+            <ol>
+              <li>
+                <strong>Affiliate-komissiot.</strong> Osa vakuutusyhtiöiden linkeistä
+                on kumppanuuslinkkejä. Kun siirryt niiden kautta yhtiön sivulle ja
+                otat vakuutuksen, saamme kiinteän komission. Sinulle hinta on täsmälleen
+                sama kuin ilman linkkiämme — komissio tulee yhtiön omasta markkinointibudjetista.
+              </li>
+              <li>
+                <strong>Display-mainonta.</strong> Saatamme näyttää sivustolla
+                Google Adsense -mainoksia tai muuta display-mainontaa.
+              </li>
+            </ol>
+            <p>
+              Jokainen mainos- tai affiliate-linkki on merkitty selkeästi{' '}
+              <strong>Mainos-merkinnällä</strong>. Affiliate-sopimus ei vaikuta
+              vertailujärjestykseen eikä siihen, mitä yhtiöitä vertailuumme sisältyy.
+              Emme saa komissiota sisällöstä, oppaista tai vertailutaulukoista.
+            </p>
+
+            <h2>Sääntely ja rooli</h2>
+            <p>
+              {SITE_NAME} toimii <strong>tietopalveluna</strong>, ei vakuutusneuvojana
+              eikä vakuutusmeklarina. Emme ole rekisteröityneet Finanssivalvontaan
+              vakuutusedustajaksi, koska emme välitä vakuutussopimuksia emmekä anna
+              henkilökohtaista vakuutusneuvontaa. Tarjoamme informaatiota ja työkaluja,
+              joiden avulla voit itse verrata markkinaa ja tehdä päätöksen.
+            </p>
+
             <h2>Arvomme</h2>
             <ul>
               <li>

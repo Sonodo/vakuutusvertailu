@@ -1,5 +1,5 @@
 // ============================================================
-// Vakuutusvertailu — FAQ Data
+// Valitse Vakuutus — FAQ Data
 // General and insurance-type-specific FAQ items
 // ============================================================
 
@@ -93,7 +93,7 @@ export const generalFAQ: FAQItem[] = [
   {
     question: 'Mikä vakuutusyhtiö sopii minulle?',
     answer:
-      'Sopiva vakuutusyhtiö riippuu yksilöllisistä tarpeistasi. POP Vakuutus on usein edullisin ja asiakastyytyväisyydeltään korkealla (9,1/10). If tarjoaa erinomaiset digitaaliset palvelut ja korvauspalvelun. OP/Pohjola on kattava valinta keskittäjille OP-bonuksen ansiosta. Turva on parhaimmistoa asiakastyytyväisyydessä. Suosittelemme vertailemaan omien tarpeidesi pohjalta.',
+      'Sopiva vakuutusyhtiö riippuu yksilöllisistä tarpeistasi. POP Vakuutus on usein perustuotteissa kilpailukykyisesti hinnoiteltu ja asiakastyytyväisyydeltään korkealla (9,1/10, POPin oma asiakaskysely). If tarjoaa monipuoliset digitaaliset palvelut ja korvauspalvelun. OP/Pohjola on kattava valinta keskittäjille OP-bonuksen ansiosta. Turvalla on korkea asiakastyytyväisyys. Suosittelemme vertailemaan omien tarpeidesi pohjalta.',
   },
 ];
 

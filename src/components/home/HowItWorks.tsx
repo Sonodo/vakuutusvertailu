@@ -8,21 +8,21 @@ const steps = [
     number: 1,
     title: 'Valitse vakuutustyyppi',
     description:
-      'Kerro mita vakuutusta tarvitset ja mita haluat vertailla.',
+      'Kerro mitä vakuutusta tarvitset ja mitä haluat vertailla.',
     Icon: Search,
   },
   {
     number: 2,
     title: 'Vertaile tarjoajia',
     description:
-      'Saat suuntaa-antavan arvion kaikilta 10 vakuutusyhtiolta.',
+      'Saat suuntaa-antavan hinta-arvion 10 vakuutusyhtiöltä.',
     Icon: BarChart3,
   },
   {
     number: 3,
-    title: 'Tee valinta',
+    title: 'Tee valinta itse',
     description:
-      'Siirry suoraan parhaan yhtion sivulle ja tee sopimus.',
+      'Siirry haluamasi yhtiön omalle sivulle ja pyydä virallinen tarjous.',
     Icon: CheckCircle,
   },
 ];
@@ -33,9 +33,9 @@ export default function HowItWorks() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="mb-14 text-center">
-            <h2 className="section-title">Nain vertailu toimii</h2>
+            <h2 className="section-title">Näin vertailu toimii</h2>
             <p className="section-subtitle">
-              Vakuutusten vertailu on helppoa ja nopeaa
+              Vertailu vie alle 2 minuuttia
             </p>
           </div>
         </ScrollReveal>

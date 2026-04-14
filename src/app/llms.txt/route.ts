@@ -1,6 +1,6 @@
 export async function GET() {
   const content = `# Valitse Vakuutus
-> Suomen kattava vakuutusvertailu — vertaa vakuutuksia ja säästä
+> Suomen kattava vakuutusvertailu — vertaa vakuutuksia läpinäkyvästi
 
 ## What is this site?
 Valitse Vakuutus (valitsevakuutus.fi) is a Finnish insurance comparison platform. It provides free, independent comparison of insurance products from Finland's 10 largest insurance providers. The site is an information service — not an insurance intermediary or advisor.

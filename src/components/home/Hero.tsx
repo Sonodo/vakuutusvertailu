@@ -35,7 +35,7 @@ export default function Hero() {
 
           {/* H1 */}
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-            Loyda oikea{' '}
+            Löydä sopiva{' '}
             <span className="bg-gradient-to-r from-accent-400 to-accent-200 bg-clip-text text-transparent">
               vakuutusturva.
             </span>
@@ -43,8 +43,8 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="mt-6 text-lg leading-relaxed text-white/70 sm:text-xl">
-            Vertaile auto-, koti-, matka- ja henkilovakuutuksia. Loyda kattavin
-            turva parhaaseen hintaan.
+            Vertaile auto-, koti-, matka- ja henkivakuutuksia. Löydä kattava
+            turva kilpailukykyiseen hintaan.
           </p>
 
           {/* CTAs */}

@@ -1,5 +1,5 @@
 // ============================================================
-// Vakuutusvertailu — Provider Comparison Data
+// Valitse Vakuutus — Provider Comparison Data
 // Head-to-head comparison data for VS pages
 // ============================================================
 
@@ -121,7 +121,7 @@ export const comparisons: ProviderComparison[] = [
     description:
       'Vertaa If ja Pohjola (OP) vakuutusyhtiöitä: hinnat, korvauspalvelu, bonusedut ja mobiilisovellukset. Kattava vertailu auttaa valitsemaan.',
     verdict:
-      'If ja Pohjola ovat molemmat markkinajohtajia, mutta palvelevat erilaisia asiakasprofiileja. If sopii parhaiten hintaherkälle asiakkaalle, joka haluaa hoitaa asiat digitaalisesti. Pohjola on paras valinta OP-pankin asiakkaille, joille OP-bonus tekee kokonaishinnasta kilpailukykyisen. Jos et ole OP:n asiakas, If on todennäköisesti edullisempi.',
+      'If ja Pohjola ovat molemmat markkinajohtajia, mutta palvelevat erilaisia asiakasprofiileja. If sopii usein hintaherkälle asiakkaalle, joka haluaa hoitaa asiat digitaalisesti. Pohjola on luonteva valinta OP-pankin asiakkaille, joille OP-bonus tekee kokonaishinnasta kilpailukykyisen. Jos et ole OP:n asiakas, If on monissa tapauksissa edullisempi.',
     comparisonPoints: [
       {
         category: 'Hintataso',
@@ -198,14 +198,14 @@ export const comparisons: ProviderComparison[] = [
     description:
       'Vertaa Suomen suurimpia vakuutusyhtiöitä Pohjola (OP) ja LähiTapiola. Hinnat, palvelu, korvaukset ja keskittämisedut vertailussa.',
     verdict:
-      'Pohjola ja LähiTapiola ovat Suomen kaksi suurinta vakuutusyhtiötä, ja molemmat tarjoavat erinomaisen palvelun. Pohjola on paras valinta OP-pankin asiakkaalle, joka hyödyntää OP-bonusta. LähiTapiola sopii asiakkaalle, joka arvostaa paikallista palvelua ja osuustoiminnallista omistusmallia. Molemmat ovat luotettavia valintoja.',
+      'Pohjola ja LähiTapiola ovat Suomen kaksi suurinta vakuutusyhtiötä, ja molemmat tarjoavat vakaan palvelun. Pohjola on luonteva valinta OP-pankin asiakkaalle, joka hyödyntää OP-bonusta. LähiTapiola sopii asiakkaalle, joka arvostaa paikallista palvelua ja osuustoiminnallista omistusmallia. Molemmat ovat luotettavia valintoja.',
     comparisonPoints: [
       {
         category: 'Hintataso',
         provider1Score: 7,
         provider2Score: 7,
         provider1Text:
-          'Pohjolan listahinnat ovat hieman korkeampia, mutta OP-bonus tekee kokonaishinnasta kilpailukykyisen. Paras hinta syntyy kokonaisasiakkuudella.',
+          'Pohjolan listahinnat ovat hieman korkeampia, mutta OP-bonus tekee kokonaishinnasta kilpailukykyisen. Kokonaisedullisin hinta syntyy kokonaisasiakkuudella.',
         provider2Text:
           'LähiTapiolan hinnat ovat linjassa markkinoiden kanssa. Keskittämisedut ja jäsenalennukset tekevät pitkäaikaisesta asiakkuudesta edullisemman.',
       },
@@ -241,7 +241,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Score: 9,
         provider2Score: 8,
         provider1Text:
-          'OP-bonus on Suomen paras keskittämisetu. Bonus kertyy kaikista OP-palveluista ja voi alentaa vakuutusmaksuja merkittävästi.',
+          'OP-bonus on Suomen kattavimpia keskittämisetuja. Bonus kertyy kaikista OP-palveluista ja voi alentaa vakuutusmaksuja merkittävästi.',
         provider2Text:
           'LähiTapiolan etuohjelma tarjoaa monipuolisia etuja jäsenille. Alennukset kertyvät asiakkuuden laajuuden mukaan.',
       },
@@ -570,20 +570,20 @@ export const comparisons: ProviderComparison[] = [
     slug: 'pop-vakuutus-vs-if',
     provider1Id: 'pop-vakuutus',
     provider2Id: 'if',
-    title: 'POP Vakuutus vs If — Halvin vai digitaalisin?',
+    title: 'POP Vakuutus vs If — Kilpailukykyisin hinta vai digitaalisin?',
     description:
       'Vertaa POP Vakuutus ja If vakuutusyhtiöitä. POP Vakuutus haastaa isoja yhtiöitä hinnoilla — miten se vertautuu Ifiin?',
     verdict:
-      'POP Vakuutus on markkinoiden edullisin vaihtoehto ja sopii erinomaisesti hintaherkälle asiakkaalle. If tarjoaa laajemman tuotevalikoiman ja paremmat digitaaliset palvelut. Jos etsit halvinta hintaa perusvakuutuksiin, POP on erinomainen. Jos tarvitset monipuoliset palvelut ja arvostat digitaalista käyttökokemusta, If on parempi.',
+      'POP Vakuutus on usein kilpailukykyisesti hinnoiteltu vaihtoehto ja sopii hintatietoiselle asiakkaalle. If tarjoaa laajemman tuotevalikoiman ja monipuoliset digitaaliset palvelut. Jos etsit kilpailukykyistä hintaa perusvakuutuksiin, POP on hyvä valinta. Jos tarvitset monipuoliset palvelut ja arvostat digitaalista käyttökokemusta, If on vahvempi.',
     comparisonPoints: [
       {
         category: 'Hintataso',
         provider1Score: 9,
         provider2Score: 8,
         provider1Text:
-          'POP Vakuutus on usein markkinoiden edullisin. Yksinkertainen hinnoittelu ilman piilokustannuksia. Erinomainen hinta-laatusuhde.',
+          'POP Vakuutus on usein kilpailukykyisesti hinnoiteltu. Yksinkertainen hinnoittelu ilman piilokustannuksia. Hyvä hinta–laatu-suhde.',
         provider2Text:
-          'If on suurista yhtiöistä kilpailukykyisin. Verkkoalennus tekee hinnoista houkuttelevia, mutta POP on usein vielä edullisempi.',
+          'If on suurista yhtiöistä kilpailukykyisimpiä. Verkkoalennus tekee hinnoista houkuttelevia, mutta POP voi olla perustuotteissa edullisempi.',
       },
       {
         category: 'Asiakastyytyväisyys',
@@ -647,7 +647,7 @@ export const comparisons: ProviderComparison[] = [
     slug: 'pop-vakuutus-vs-lahitapiola',
     provider1Id: 'pop-vakuutus',
     provider2Id: 'lahitapiola',
-    title: 'POP Vakuutus vs LähiTapiola — Edullisin vai laajin?',
+    title: 'POP Vakuutus vs LähiTapiola — Kilpailukykyinen hinta vai laajin turva?',
     description:
       'Vertaa POP Vakuutus ja LähiTapiola: hinta, palvelu ja tuotteet. Haastajan ja markkinajohtajan ero selviää.',
     verdict:
@@ -658,7 +658,7 @@ export const comparisons: ProviderComparison[] = [
         provider1Score: 9,
         provider2Score: 7,
         provider1Text:
-          'POP Vakuutus on markkinoiden edullisimpia. Verkkopohjaisuus pitää kustannukset matalina.',
+          'POP Vakuutus on perustuotteissa usein kilpailukykyisesti hinnoiteltu. Verkkopohjaisuus pitää kustannukset matalina.',
         provider2Text:
           'LähiTapiolan hinnat ovat keskitasoa. Keskittämisedut voivat parantaa kokonaishintaa.',
       },
@@ -715,11 +715,11 @@ export const comparisons: ProviderComparison[] = [
     slug: 'pop-vakuutus-vs-pohjola',
     provider1Id: 'pop-vakuutus',
     provider2Id: 'pohjola',
-    title: 'POP Vakuutus vs Pohjola — Halvin vai suurin?',
+    title: 'POP Vakuutus vs Pohjola — Kilpailukykyinen hinta vai suurin?',
     description:
-      'Vertaa POP Vakuutus ja Pohjola (OP) vakuutusyhtiöitä. Pieni haastaja vastaan Suomen suurin — kumpi kannattaa?',
+      'Vertaa POP Vakuutus ja Pohjola (OP) vakuutusyhtiöitä. Pieni haastaja vastaan Suomen suurin — kumpi sopii sinulle?',
     verdict:
-      'POP Vakuutus on edullisempi perushinnaltaan ja sopii yksinkertaisiin vakuutustarpeisiin. Pohjola tarjoaa laajemman kokonaispalvelun ja OP-bonus tekee siitä kilpailukykyisen OP:n kokonaisasiakkaalle. Jos tarvitset vain perusvakuutukset halvalla, POP on paras. Jos haluat kaikki finanssipalvelut yhdestä paikasta, Pohjola voittaa.',
+      'POP Vakuutus on perushinnaltaan edullisempi ja sopii yksinkertaisiin vakuutustarpeisiin. Pohjola tarjoaa laajemman kokonaispalvelun ja OP-bonus tekee siitä kilpailukykyisen OP:n kokonaisasiakkaalle. Jos tarvitset perusvakuutukset kilpailukykyiseen hintaan, POP on hyvä valinta. Jos haluat kaikki finanssipalvelut yhdestä paikasta, Pohjola on vahvempi.',
     comparisonPoints: [
       {
         category: 'Hintataso',
@@ -1354,20 +1354,20 @@ export const comparisons: ProviderComparison[] = [
     slug: 'pop-vakuutus-vs-fennia',
     provider1Id: 'pop-vakuutus',
     provider2Id: 'fennia',
-    title: 'POP Vakuutus vs Fennia — Halvin vai monipuolisin?',
+    title: 'POP Vakuutus vs Fennia — Kilpailukykyinen hinta vai monipuolisin?',
     description:
-      'Vertaa POP Vakuutus ja Fennia vakuutusyhtiöitä. Markkinoiden edullisin haastaa vakiintuneen keskikokoisen — kumpi voittaa?',
+      'Vertaa POP Vakuutus ja Fennia vakuutusyhtiöitä. Kilpailukykyisesti hinnoiteltu haastaja vastaan vakiintunut keskikokoinen — kumpi sopii sinulle?',
     verdict:
-      'POP Vakuutus on edullisempi perusvakuutuksissa ja sopii hintaherkälle asiakkaalle. Fennia on monipuolisempi ja tarjoaa paremman palvelun erityisesti yrittäjille. Jos etsit halvinta hintaa, POP on parempi. Jos tarvitset yritysvakuutuksia tai monipuolisempaa palvelua, Fennia on vahvempi.',
+      'POP Vakuutus on edullisempi perusvakuutuksissa ja sopii hintatietoiselle asiakkaalle. Fennia on monipuolisempi ja tarjoaa vahvemman palvelun erityisesti yrittäjille. Jos etsit kilpailukykyistä hintaa, POP on hyvä valinta. Jos tarvitset yritysvakuutuksia tai monipuolisempaa palvelua, Fennia on vahvempi.',
     comparisonPoints: [
       {
         category: 'Hintataso',
         provider1Score: 9,
         provider2Score: 7,
         provider1Text:
-          'POP Vakuutus on markkinoiden edullisimpia. Verkkopohjaisuus pitää kustannukset matalina.',
+          'POP Vakuutus on perustuotteissa usein kilpailukykyisesti hinnoiteltu. Verkkopohjaisuus pitää kustannukset matalina.',
         provider2Text:
-          'Fennian hinnat ovat keskitasoa. Kilpailukykyinen mutta ei halvin.',
+          'Fennian hinnat ovat keskitasoa. Kilpailukykyisiä, muttei alan edullisimpia.',
       },
       {
         category: 'Asiakastyytyväisyys',

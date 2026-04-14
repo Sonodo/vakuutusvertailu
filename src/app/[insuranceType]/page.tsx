@@ -30,13 +30,13 @@ export async function generateMetadata({
   if (!typeInfo) return {};
 
   return {
-    title: `${typeInfo.name} vertailu 2026 — Vertaa hintoja ja säästä`,
+    title: `${typeInfo.name} vertailu 2026 — Vertaa hintoja ja kattavuuksia`,
     description: typeInfo.description,
     alternates: {
       canonical: `${SITE_URL}/${typeInfo.slug}`,
     },
     openGraph: {
-      title: `${typeInfo.name} vertailu 2026 — Vertaa hintoja ja säästä | ${SITE_NAME}`,
+      title: `${typeInfo.name} vertailu 2026 — Vertaa hintoja ja kattavuuksia | ${SITE_NAME}`,
       description: typeInfo.description,
       url: `${SITE_URL}/${typeInfo.slug}`,
     },
@@ -122,14 +122,46 @@ export default async function InsuranceTypePage({
               <span className="hidden sm:inline">|</span>
               <span>{typeInfo.keyFact}</span>
             </div>
+            <p className="mt-4 text-xs text-white/50">
+              Päivitetty viimeksi: 28.3.2026
+            </p>
             <Link
               href="/vertailu"
-              className="mt-8 inline-block rounded-lg bg-teal px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-teal-dark"
+              className="mt-6 inline-block rounded-lg bg-teal px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-teal-dark"
             >
               Aloita vertailu
             </Link>
           </div>
         </section>
+
+        {/* Statutory alerts for regulated insurance types */}
+        {typeInfo.type === 'auto' && (
+          <section className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
+            <div className="rounded-lg border border-red-200 bg-red-50 p-4">
+              <p className="text-sm leading-relaxed text-red-800">
+                <strong>Huomio — liikennevakuutus on lakisääteinen.</strong>{' '}
+                Jokaisella rekisteröidyllä moottoriajoneuvolla on oltava voimassa oleva
+                liikennevakuutus (Liikennevakuutuslaki 460/2016). Kaskovakuutus on
+                vapaaehtoinen. Vertailemme tällä sivulla sekä pakollista liikennevakuutusta
+                että vapaaehtoisia kaskotuotteita.
+              </p>
+            </div>
+          </section>
+        )}
+        {typeInfo.type === 'life' && (
+          <section className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
+            <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
+              <p className="text-sm leading-relaxed text-amber-900">
+                <strong>Henkivakuutus vaatii yksilöllistä terveysarviointia.</strong>{' '}
+                Vakuutusyhtiö tekee lopullisen hinnoittelun vasta terveysselvityksen
+                ja mahdollisen lääkärintarkastuksen perusteella. Alla olevat hinnat ovat
+                yleishinnoittelua perusterveelle vakuutuksenottajalle, eivät sitovia tarjouksia.
+                Aiemmat sairaudet, tupakointi ja ikä voivat nostaa hintaa merkittävästi
+                tai johtaa hakemuksen hylkäämiseen.
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* Products Grid */}
         <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">

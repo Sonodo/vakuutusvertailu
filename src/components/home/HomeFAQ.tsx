@@ -21,9 +21,9 @@ export default function HomeFAQ({ items }: HomeFAQProps) {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="mb-10 text-center">
-            <h2 className="section-title">Usein kysyttya</h2>
+            <h2 className="section-title">Usein kysyttyä</h2>
             <p className="section-subtitle">
-              Vastauksia yleisimpiin vakuutusvertailua koskeviin kysymyksiin
+              Vastauksia yleisimpiin vakuutusten vertailua koskeviin kysymyksiin
             </p>
           </div>
         </ScrollReveal>

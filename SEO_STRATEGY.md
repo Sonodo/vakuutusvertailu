@@ -1,4 +1,4 @@
-# Vakuutusvertailu — SEO Strategy
+# Valitse Vakuutus — SEO Strategy
 
 **Prepared**: March 2026
 **Target**: Organic search as primary traffic driver — aiming for top 3 positions on high-intent Finnish insurance comparison keywords within 6–12 months.
@@ -242,8 +242,8 @@ Each provider page targets brand-name keywords:
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Vakuutusvertailu.fi",
-  "url": "https://vakuutusvertailu.fi",
+  "name": "Valitsevakuutus.fi",
+  "url": "https://valitsevakuutus.fi",
   "description": "Suomen puolueeton vakuutusvertailu"
 }
 ```
@@ -289,7 +289,7 @@ Generated dynamically via Next.js `sitemap.ts`:
 User-agent: *
 Allow: /
 
-Sitemap: https://vakuutusvertailu.fi/sitemap.xml
+Sitemap: https://valitsevakuutus.fi/sitemap.xml
 ```
 
 ### Internal Linking Strategy

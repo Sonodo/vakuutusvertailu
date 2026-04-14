@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Vakuutuslaskurit — Laske vakuutuksen hinta',
     description:
-      'Ilmaiset vakuutuslaskurit kaikille vakuutustyypeille. Vertaa hintoja ja löydä halvin vakuutus.',
+      'Ilmaiset vakuutuslaskurit kaikille vakuutustyypeille. Vertaa hinta-arvioita ja löydä sopiva vakuutus.',
   },
 };
 
@@ -92,8 +92,8 @@ export default function LaskuritIndexPage() {
               </h1>
             </div>
             <p className="max-w-2xl text-lg text-gray-600">
-              Ilmaiset vakuutuslaskurit auttavat sinua vertaamaan vakuutusten hintoja
-              ja löytämään edullisimman vaihtoehdon. Valitse laskuri alta.
+              Ilmaiset vakuutuslaskurit auttavat sinua vertaamaan vakuutusten hinta-arvioita
+              ja löytämään sinulle sopivan vaihtoehdon. Valitse laskuri alta.
             </p>
           </section>
 

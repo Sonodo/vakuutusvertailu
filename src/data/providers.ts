@@ -1,5 +1,5 @@
 // ============================================================
-// Vakuutusvertailu — Insurance Provider Data
+// Valitse Vakuutus — Insurance Provider Data
 // Complete database of Finnish insurance providers and products
 // ============================================================
 
@@ -1562,7 +1562,7 @@ const turvaProducts: InsuranceProduct[] = [
       { amount: 100, label: '100 € omavastuu' },
     ],
     highlights: [
-      'Edullisin matkavakuutus markkinoilla',
+      'Usein kilpailukykyisesti hinnoiteltu matkavakuutus',
       'Peruuntumisturva sisältyy',
     ],
     limitations: [
@@ -1725,7 +1725,7 @@ const pohjantahtiProducts: InsuranceProduct[] = [
       { amount: 500, label: '500 € omavastuu' },
     ],
     highlights: [
-      'Edullisin kotivakuutus markkinoilla',
+      'Usein kilpailukykyisesti hinnoiteltu kotivakuutus',
       'Paikallinen korvauspalvelu',
     ],
     limitations: [
@@ -1750,14 +1750,15 @@ const pohjantahtiProducts: InsuranceProduct[] = [
       { amount: 150, label: '150 € omavastuu' },
     ],
     highlights: [
-      'Edullinen lemmikkivakuutus',
+      'Usein kilpailukykyisesti hinnoiteltu lemmikkivakuutus',
       'Myös maatilojen eläimille tuotteet',
+      'Huomaa: korvauskatto matalahko — lue limitations tarkkaan',
     ],
     limitations: [
-      'Korvauskatot markkinoiden matalimpia',
+      'Korvauskatot alan matalampaa tasoa — edullinen hinta perustuu osittain suppeampaan turvaan',
       'Ei vastuuvakuutusta lemmikille',
     ],
-    suitableFor: ['Edullista lemmikkivakuutusta hakevat', 'Maatilojen eläinten omistajat'],
+    suitableFor: ['Kilpailukykyistä hintaa hakevat', 'Maatilojen eläinten omistajat'],
     lastVerified: '2026-03-14',
   },
 ];
@@ -1782,7 +1783,7 @@ const popVakuutus: InsuranceProvider = {
   customerCount: 'Yli 200 000 asiakasta',
   website: 'https://www.popvakuutus.fi',
   description:
-    'Suomen ensimmäinen täysin digitaalinen vakuutusyhtiö, perustettu 2012. Tunnettu edullisista hinnoistaan ja erinomaisesta asiakastyytyväisyydestä (9,1/10). Markkinoiden nopeimmin kasvava vakuuttaja.',
+    'Suomen ensimmäinen täysin digitaalinen vakuutusyhtiö, perustettu 2012. Tunnettu kilpailukykyisistä hinnoistaan ja korkeasta asiakastyytyväisyydestä (9,1/10 — lähde: POPin oma asiakaskysely). Nopeimmin kasvava vakuuttaja Suomessa.',
   longDescription:
     'POP Vakuutus on Suomen ensimmäinen täysin digitaalinen vakuutusyhtiö, joka perustettiin vuonna 2012. POP toimii kokonaan verkossa ilman konttoreita, mikä mahdollistaa edullisen hinnoittelun. Yhtiö on kasvanut nopeasti ja saavuttanut yli 200 000 asiakasta. POP:n asiakastyytyväisyys on huippuluokkaa: 9,1/10, joka on alan korkein Suomessa. LähiTapiola hankki 70 % POP:n emoyhtiöstä, mutta POP jatkaa itsenäisenä digitaalisena brändinä. POP on erityisen suosittu nuorten ja ensivakuutuksen ottajien keskuudessa.',
   color: '#FF1493',
@@ -1794,10 +1795,10 @@ const popVakuutus: InsuranceProvider = {
   affiliateUrl: 'https://www.popvakuutus.fi',
   products: [],
   strengths: [
-    'Markkinoiden edullisimmat hinnat — digitaalinen toimintamalli pitää kulut matalina',
-    'Erinomainen asiakastyytyväisyys Suomessa: 9,1/10',
+    'Kilpailukykyisiä hintoja digitaalisen toimintamallin ansiosta',
+    'Korkea asiakastyytyväisyys: 9,1/10 (POPin oma asiakaskysely)',
     'Täysin digitaalinen — helppo ja nopea asiointi',
-    'Erityisen hyvät hinnat nuorille kuljettajille',
+    'Erityisen kilpailukykyinen hinnoittelu nuorille kuljettajille',
     'Nopeasti kasvava ja innovatiivinen',
   ],
   weaknesses: [
@@ -1851,7 +1852,7 @@ const popProducts: InsuranceProduct[] = [
     type: 'auto',
     name: 'POP Liikennevakuutus',
     tier: 'basic',
-    priceRange: { min: 160, max: 480, unit: 'eur/year', note: 'Usein markkinoiden halvin liikennevakuutus' },
+    priceRange: { min: 160, max: 480, unit: 'eur/year', note: 'Usein kilpailukykyisesti hinnoiteltu liikennevakuutus' },
     coverage: [
       { name: 'Liikennevakuutus (lakisääteinen)', included: true },
       { name: 'Henkilövahingot', included: true },
@@ -1862,14 +1863,14 @@ const popProducts: InsuranceProduct[] = [
       { amount: 200, label: '200 € omavastuu' },
     ],
     highlights: [
-      'Usein markkinoiden edullisin liikennevakuutus',
+      'Usein kilpailukykyinen liikennevakuutuksen hinnoittelu',
       'Osto alle 3 minuutissa verkossa',
       'Ei turhia lisämaksuja',
     ],
     limitations: [
       'Vain verkkopalvelu — ei konttoreita',
     ],
-    suitableFor: ['Edullisinta hintaa hakevat', 'Nuoret kuljettajat', 'Digitaalisesti taitavat'],
+    suitableFor: ['Kilpailukykyistä hintaa hakevat', 'Nuoret kuljettajat', 'Digitaalisesti taitavat'],
     lastVerified: '2026-04-03',
   },
   {
@@ -1894,7 +1895,7 @@ const popProducts: InsuranceProduct[] = [
       { amount: 150, label: '150 € omavastuu (lasi)' },
     ],
     highlights: [
-      'Edullisin osakasko markkinoilla',
+      'Usein kilpailukykyisesti hinnoiteltu osakasko',
       'Selkeä tuote ilman piilokustannuksia',
     ],
     limitations: [
@@ -1927,9 +1928,9 @@ const popProducts: InsuranceProduct[] = [
       { amount: 150, label: '150 € omavastuu (lasi)' },
     ],
     highlights: [
-      'Edullisin täyskasko markkinoilla',
+      'Usein kilpailukykyisesti hinnoiteltu täyskasko',
       'Kaikki oleelliset turvat mukana',
-      'Erinomainen asiakastyytyväisyys 9,1/10',
+      'Korkea asiakastyytyväisyys 9,1/10 (POPin oma asiakaskysely)',
     ],
     limitations: [
       'Ei lunastusturvaa tai keskeytysturvaa',
@@ -1944,7 +1945,7 @@ const popProducts: InsuranceProduct[] = [
     type: 'home',
     name: 'POP Kotivakuutus',
     tier: 'standard',
-    priceRange: { min: 80, max: 300, unit: 'eur/year', note: 'Markkinoiden edullisimpia' },
+    priceRange: { min: 80, max: 300, unit: 'eur/year', note: 'Usein kilpailukykyisesti hinnoiteltu' },
     coverage: [
       { name: 'Irtaimistovakuutus', included: true },
       { name: 'Putkivuototurva', included: true },
@@ -1959,7 +1960,7 @@ const popProducts: InsuranceProduct[] = [
       { amount: 300, label: '300 € omavastuu' },
     ],
     highlights: [
-      'Markkinoiden edullisimpia kotivakuutuksia',
+      'Kilpailukykyinen hinnoittelu digitaalisen mallin ansiosta',
       'Yksinkertainen ja selkeä tuote',
       'Osto verkossa muutamassa minuutissa',
     ],
@@ -1977,7 +1978,7 @@ const popProducts: InsuranceProduct[] = [
     type: 'travel',
     name: 'POP Matkavakuutus',
     tier: 'standard',
-    priceRange: { min: 35, max: 100, unit: 'eur/year', note: 'Markkinoiden edullisimpia' },
+    priceRange: { min: 35, max: 100, unit: 'eur/year', note: 'Usein kilpailukykyisesti hinnoiteltu' },
     coverage: [
       { name: 'Matkakulut sairauden johdosta', included: true, limit: 'Enintään 100 000 €' },
       { name: 'Matkatavaravakuutus', included: true, limit: 'Enintään 1 000 €' },
@@ -1988,11 +1989,11 @@ const popProducts: InsuranceProduct[] = [
       { amount: 100, label: '100 € omavastuu' },
     ],
     highlights: [
-      'Markkinoiden edullisin matkavakuutus',
-      'Perusturva edulliseen hintaan',
+      'Usein kilpailukykyisesti hinnoiteltu matkavakuutus',
+      'Perusturva kilpailukykyiseen hintaan',
     ],
     limitations: [
-      'Hoitokulukatto matalin markkinoilla',
+      'Hoitokulukatto alan matalampaa tasoa',
       'Matkatavarakatto matala',
     ],
     suitableFor: ['Budjettimatkailijat', 'Satunnaisesti matkustavat'],
@@ -2004,7 +2005,7 @@ const popProducts: InsuranceProduct[] = [
     type: 'pet',
     name: 'POP Koiravakuutus',
     tier: 'standard',
-    priceRange: { min: 15, max: 42, unit: 'eur/month', note: 'Edullisin koiravakuutus' },
+    priceRange: { min: 15, max: 42, unit: 'eur/month', note: 'Usein kilpailukykyisesti hinnoiteltu' },
     coverage: [
       { name: 'Eläinlääkärikulut (sairaus)', included: true, limit: 'Enintään 3 000 €/vuosi' },
       { name: 'Eläinlääkärikulut (tapaturma)', included: true, limit: 'Enintään 3 000 €/vuosi' },
@@ -2015,15 +2016,15 @@ const popProducts: InsuranceProduct[] = [
       { amount: 200, label: '200 € omavastuu' },
     ],
     highlights: [
-      'Markkinoiden edullisin koiravakuutus',
+      'Usein kilpailukykyisesti hinnoiteltu koiravakuutus',
       'Helppo ostaa verkossa',
     ],
     limitations: [
-      'Korvauskatot matalimmat markkinoilla',
+      'Korvauskatot alan matalampaa tasoa',
       'Ei vastuuvakuutusta',
       'Suppea turva verrattuna kalliimpiin vaihtoehtoihin',
     ],
-    suitableFor: ['Edullista perusturvaa hakevat', 'Ensimmäisen lemmikkivakuutuksen ottajat'],
+    suitableFor: ['Kilpailukykyistä perusturvaa hakevat', 'Ensimmäisen lemmikkivakuutuksen ottajat'],
     lastVerified: '2026-04-03',
   },
 ];

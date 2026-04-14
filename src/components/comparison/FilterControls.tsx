@@ -24,8 +24,8 @@ interface FilterControlsProps {
 }
 
 const SORT_OPTIONS: { value: SortOption; label: string }[] = [
-  { value: 'price-asc', label: 'Halvin ensin' },
-  { value: 'price-desc', label: 'Kallein ensin' },
+  { value: 'price-asc', label: 'Edullisin arvio ensin' },
+  { value: 'price-desc', label: 'Korkein arvio ensin' },
   { value: 'satisfaction', label: 'Asiakastyytyväisyys' },
   { value: 'market-share', label: 'Markkinaosuus' },
   { value: 'rating', label: 'Kattavin ensin' },

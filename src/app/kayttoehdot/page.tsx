@@ -7,7 +7,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Käyttöehdot',
-  description: `${SITE_NAME}n käyttöehdot. Lue palvelun käyttöä koskevat ehdot, vastuunrajoitukset ja tietosuojakäytännöt.`,
+  description: `Valitse Vakuutuksen käyttöehdot. Lue palvelun käyttöä koskevat ehdot, vastuunrajoitukset ja tietosuojakäytännöt.`,
   alternates: {
     canonical: `${SITE_URL}/kayttoehdot`,
   },
@@ -124,7 +124,7 @@ export default function TermsPage() {
             <h2>6. Immateriaalioikeudet</h2>
             <p>
               Palvelun sisältö, mukaan lukien tekstit, kuvat, grafiikat, logot ja
-              ohjelmistokoodi, on {SITE_NAME}n tai sen lisenssinantajien
+              ohjelmistokoodi, on Valitse Vakuutuksen tai sen lisenssinantajien
               omaisuutta ja suojattu tekijänoikeuslailla.
             </p>
             <p>

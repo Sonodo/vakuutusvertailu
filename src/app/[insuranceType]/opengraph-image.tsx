@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { INSURANCE_TYPES } from '@/lib/constants';
 
-export const alt = 'Vakuutusvertailu — Valitse Vakuutus';
+export const alt = 'Valitse Vakuutus — Vakuutusvertailu';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 

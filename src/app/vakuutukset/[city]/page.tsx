@@ -93,8 +93,8 @@ export default async function CityInsurancePage({
 
   const faqItems = [
     {
-      question: `Mikä on halvin vakuutusyhtiö ${city.nameInessive}?`,
-      answer: `Halvin vakuutusyhtiö ${city.nameInessive} riippuu vakuutustyypistä ja henkilökohtaisista tekijöistä. POP Vakuutus on usein edullisin perusvakuutuksissa, mutta keskittämisetujen jälkeen suuret yhtiöt kuten Pohjola tai LähiTapiola voivat olla kokonaisedullisempia. Suosittelemme vertailemaan vähintään 3 yhtiötä.`,
+      question: `Mikä vakuutusyhtiö on yleensä kilpailukykyisin ${city.nameInessive}?`,
+      answer: `Kilpailukykyisin vakuutusyhtiö ${city.nameInessive} riippuu vakuutustyypistä, henkilökohtaisista tekijöistä ja keskittämiseduista. POP Vakuutus on usein kilpailukykyisesti hinnoiteltu perusvakuutuksissa, mutta keskittämisetujen jälkeen suuret yhtiöt kuten Pohjola tai LähiTapiola voivat olla kokonaisedullisempia. Suosittelemme vertailemaan vähintään 3 yhtiötä omilla tiedoillasi.`,
     },
     {
       question: `Paljonko autovakuutus maksaa ${city.nameInessive}?`,
@@ -250,7 +250,7 @@ export default async function CityInsurancePage({
                   <div className="rounded-xl bg-teal p-6 text-white">
                     <h3 className="mb-2 text-lg font-bold">Vertaa hintoja</h3>
                     <p className="mb-4 text-sm text-white/90">
-                      Löydä halvin vakuutus {city.nameInessive}. Vertaa 10 yhtiön hintoja ilmaiseksi.
+                      Löydä sopiva vakuutus {city.nameInessive}. Vertaa 10 yhtiön hinta-arvioita ilmaiseksi.
                     </p>
                     <Link
                       href="/vertailu"
@@ -329,7 +329,7 @@ export default async function CityInsurancePage({
                 },
                 {
                   title: 'Tarkista turvataso, älä vain hintaa',
-                  text: 'Halvin vakuutus ei aina ole paras. Vertaa korvausrajoja, omavastuita ja turvan laajuutta. Edullinen vakuutus voi osoittautua kalliiksi vahinkotilanteessa.',
+                  text: 'Edullisin vakuutus ei aina ole kokonaisedullisin. Vertaa korvausrajoja, omavastuita ja turvan laajuutta. Matalalla hinnalla voi olla matala korvauskatto, jolloin vahinkotilanteessa maksat paljon itse.',
                 },
                 {
                   title: 'Kilpailuta säännöllisesti',

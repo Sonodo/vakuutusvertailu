@@ -7,7 +7,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Evästekäytäntö',
-  description: `${SITE_NAME}n evästekäytäntö. Lue mitä evästeitä käytämme, miksi ja miten voit hallita evästeasetuksiasi.`,
+  description: `Valitse Vakuutuksen evästekäytäntö. Lue mitä evästeitä käytämme, miksi ja miten voit hallita evästeasetuksiasi.`,
   alternates: {
     canonical: `${SITE_URL}/evasteet`,
   },
@@ -64,7 +64,7 @@ export default function CookiePolicyPage() {
                 </thead>
                 <tbody className="text-gray-600">
                   <tr className="border-b border-gray-100">
-                    <td className="py-2 pr-4 font-mono text-xs">vakuutusvertailu-cookie-consent</td>
+                    <td className="py-2 pr-4 font-mono text-xs">cookie_consent</td>
                     <td className="py-2 pr-4">Evästeasetustesi tallennus</td>
                     <td className="py-2">365 päivää</td>
                   </tr>

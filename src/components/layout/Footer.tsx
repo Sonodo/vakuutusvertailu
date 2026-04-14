@@ -27,8 +27,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Puolueeton vakuutusvertailu. Vertaa hintoja, kattavuutta ja
-              asiakastyytyväisyyttä merkittävimpien suomalaisten vakuutusyhtiöiden
+              Tietopalvelu, joka vertailee vakuutuksia. Vertaa hintoja, kattavuutta
+              ja asiakastyytyväisyyttä merkittävimpien suomalaisten vakuutusyhtiöiden
               välillä.
             </p>
             <p className="mt-3 text-sm text-white/40"><a href="/yhteystiedot" className="hover:text-white/60 transition-colors">Ota yhteyttä</a></p>
@@ -112,8 +112,27 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Compliance disclosure — persistent per IDD/KKV guidelines */}
+        <div className="mt-12 rounded-xl border border-white/10 bg-white/5 p-5">
+          <p className="text-xs leading-relaxed text-white/60">
+            <strong className="text-white/80">Tärkeää sääntelytietoa:</strong>{' '}
+            {SITE_NAME} on <strong>tietopalvelu</strong>, ei vakuutusneuvoja, -meklari
+            eikä vakuutusasiamies. Emme ole rekisteröityneet Finanssivalvontaan
+            (FIN-FSA), koska emme välitä vakuutussopimuksia emmekä anna
+            henkilökohtaista vakuutusneuvontaa. Hinnat ovat suuntaa-antavia arvioita
+            julkisten tietojen perusteella — lopullinen hinta ja ehdot määräytyvät
+            aina vakuutusyhtiön ja asiakkaan välisessä sopimuksessa. Osa linkeistä
+            on kumppanuuslinkkejä (merkitty selkeästi <em>Mainos</em>-merkinnällä) —
+            affiliate-sopimus ei vaikuta vertailujärjestykseen. Lue lisää:{' '}
+            <Link href="/metodologia#nain-ansaitsemme" className="text-accent-400 underline hover:text-accent-200">
+              Näin ansaitsemme
+            </Link>
+            .
+          </p>
+        </div>
+
         {/* Bottom Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
+        <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-xs text-white/30">
             &copy; {currentYear} {SITE_NAME}. Kaikki oikeudet pidätetään.
           </p>
