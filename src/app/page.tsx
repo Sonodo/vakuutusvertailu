@@ -8,7 +8,9 @@ import { INSURANCE_TYPES, SITE_NAME, SITE_URL } from '@/lib/constants';
 import HomeContent from './home-content';
 
 export const metadata: Metadata = {
-  title: `Vakuutusvertailu 2026 — Vertaa vakuutuksia | ${SITE_NAME}`,
+  title: {
+    absolute: `Vertaa vakuutuksia 2026 — ilmainen ja puolueeton | ${SITE_NAME}`,
+  },
   description:
     'Vertaa kymmenen vakuutusyhtiön autovakuutuksia, kotivakuutuksia, matkavakuutuksia ja lemmikkivakuutuksia. Hinta-arviot julkisten tietojen perusteella. Ilmainen, puolueeton tietopalvelu.',
   openGraph: {
