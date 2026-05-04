@@ -8,13 +8,13 @@ import { SITE_CONFIG } from '@/components/disclosure';
 const SITE_NAME = SITE_CONFIG.siteName;
 
 export const metadata: Metadata = {
-  title: 'Luotettavuus ja rahoitus — näin ansaitsemme rahaa',
+  title: 'Sivuston ansainta — näin ansaitsemme rahaa',
   description: `Miten ${SITE_NAME} valitsee vakuutusyhtiöt, järjestää tarjoukset ja ansaitsee rahaa. Avoin selvitys palkkioista, järjestysalgoritmista ja siitä mitä emme tee.`,
-  alternates: { canonical: `${SITE_URL}/luotettavuus` },
+  alternates: { canonical: `${SITE_URL}/sivuston-ansainta` },
   robots: { index: true, follow: true },
 };
 
-export default function LuotettavuusPage() {
+export default function SivustonAnsaintaPage() {
   return (
     <>
       <Header />
@@ -25,7 +25,7 @@ export default function LuotettavuusPage() {
               Toimituksen periaatteet
             </p>
             <h1 className="mt-2 text-3xl font-extrabold text-navy sm:text-4xl">
-              Luotettavuus ja rahoitus
+              Sivuston ansainta
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
               Tämä sivu kertoo avoimesti, miten {SITE_NAME} hankkii tietonsa,
@@ -61,15 +61,14 @@ export default function LuotettavuusPage() {
               järjestysperusteen vapaasti.
             </p>
             <p className="mt-3 text-gray-700 leading-relaxed">
-              Kumppanitarjoukset on merkitty selkeästi pillillä{' '}
-              <span className="rounded-full bg-[#E8EEF6] px-2 py-0.5 text-[11px] font-semibold text-[#3B5266]">
-                Kumppanitarjous
-              </span>
-              . Muut kantavat merkintää{' '}
-              <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-500">
-                Markkinahinta
-              </span>
-              .
+              Kumppani- ja ei-kumppanitarjoukset näkyvät vertailussa{' '}
+              <strong>identtisellä tavalla</strong> — sama ulkoasu, sama
+              järjestyslogiikka. Kumppanilinkkeihin lisätään tekninen{' '}
+              <code className="rounded bg-slate-100 px-1 py-0.5 text-xs">
+                rel=&quot;sponsored&quot;
+              </code>
+              -merkintä hakukoneita varten, mutta käyttäjälle näkyvä korttien
+              ulkoasu ei poikkea.
             </p>
           </section>
 
