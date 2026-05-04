@@ -4,6 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import ComparisonCalculator from '@/components/calculator/ComparisonCalculator';
+import LoadingTimeout from '@/components/ui/LoadingTimeout';
 import { SITE_URL } from '@/lib/constants';
 import { SiteDisclosureBar } from '@/components/disclosure';
 
@@ -64,7 +65,7 @@ export default function ComparisonPage() {
 
         {/* Calculator */}
         <section className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-          <Suspense fallback={<div className="py-12 text-center text-gray-400">Ladataan laskuria...</div>}>
+          <Suspense fallback={<LoadingTimeout fallbackHref="/vakuutusyhtiot" fallbackLabel="Selaa vakuutusyhtiöitä" />}>
             <ComparisonCalculator />
           </Suspense>
         </section>

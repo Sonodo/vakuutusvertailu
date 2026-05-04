@@ -123,7 +123,7 @@ export default async function InsuranceTypePage({
               <span>{typeInfo.keyFact}</span>
             </div>
             <p className="mt-4 text-xs text-white/50">
-              Päivitetty viimeksi: 28.3.2026
+              Hinnat tarkistetaan kuukausittain
             </p>
             <Link
               href="/vertailu"
