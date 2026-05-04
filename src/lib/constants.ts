@@ -170,6 +170,7 @@ export const FOOTER_LINKS = {
     { label: 'Tietoa meistä', href: '/tietoa' },
     { label: 'Toimituksen periaatteet', href: '/tietoa#toimituksen-periaatteet' },
     { label: 'Näin vertailemme', href: '/metodologia' },
+    { label: 'Luotettavuus & rahoitus', href: '/luotettavuus' },
     { label: 'Vakuutussanasto', href: '/sanasto' },
     { label: 'Yhteystiedot', href: '/yhteystiedot' },
     { label: 'Tietosuoja', href: '/tietosuoja' },

@@ -28,7 +28,7 @@ export default function AffiliateCTA({
       href={href}
       target="_blank"
       rel="sponsored nofollow noopener"
-      onClick={() => trackAffiliateClick(provider, productType)}
+      onClick={() => trackAffiliateClick(provider, productType, { partner: true })}
       className={className}
     >
       {children}

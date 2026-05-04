@@ -3,6 +3,7 @@ import type { InsuranceProduct, InsuranceProvider } from '@/types';
 import { formatPriceRange } from '@/lib/utils';
 import Badge from '@/components/ui/Badge';
 import AffiliateCTA from '@/components/providers/AffiliateCTA';
+import { PartnerBadge, DISCLOSURE_COPY } from '@/components/disclosure';
 
 interface ProductCardProps {
   product: InsuranceProduct;
@@ -43,9 +44,13 @@ export default function ProductCard({ product, provider }: ProductCardProps) {
   const unit = product.priceRange.unit === 'eur/year' ? 'vuosi' : 'kk';
 
   return (
-    <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:border-teal/30 hover:shadow-md">
+    <div className="relative rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:border-teal/30 hover:shadow-md">
+      <PartnerBadge
+        variant={provider?.isAffiliate ? 'kumppani' : 'markkinahinta'}
+        className="absolute top-2 right-2 z-10"
+      />
       {/* Header */}
-      <div className="flex items-start justify-between">
+      <div className="flex items-start justify-between gap-3 pr-24">
         <div>
           <h3 className="font-semibold text-navy">{product.name}</h3>
           {provider && (
@@ -102,10 +107,7 @@ export default function ProductCard({ product, provider }: ProductCardProps) {
             productType={product.type}
             className="inline-flex min-h-[44px] w-full items-center justify-center gap-1.5 rounded-lg bg-amber px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-amber/90"
           >
-            <span className="rounded-sm bg-white/20 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide">
-              Mainos
-            </span>
-            Siirry yhtiön sivulle
+            {DISCLOSURE_COPY.ctaPartner}
           </AffiliateCTA>
         ) : (
           <Link

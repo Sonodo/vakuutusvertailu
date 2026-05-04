@@ -5,6 +5,7 @@ import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import ComparisonCalculator from '@/components/calculator/ComparisonCalculator';
 import { SITE_URL } from '@/lib/constants';
+import { SiteDisclosureBar } from '@/components/disclosure';
 
 export const metadata: Metadata = {
   title: 'Vertaa vakuutuksia — Ilmainen vakuutuslaskuri',
@@ -26,6 +27,7 @@ export default function ComparisonPage() {
       <Header />
 
       <main className="min-h-screen bg-gray-50">
+        <SiteDisclosureBar />
         <Breadcrumbs items={breadcrumbs} />
 
         {/* Method Bar */}
